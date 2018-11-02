@@ -39,7 +39,7 @@ namespace Hackathon
             i.Current = w.Ammo;
             i.Player_ID = player.ID;
             i.Weapon_ID = c.Weapon;
-            i.Slot = 1;
+            i.Slot = InventoryTable.Select_Count() + 1;
             InventoryTable.Insert(i);
         }
     }
