@@ -18,6 +18,7 @@ namespace Hackathon
             Player Defender;
             Character DefenderCharacter;
 
+
         [SyncVar]
         public string message;
 
