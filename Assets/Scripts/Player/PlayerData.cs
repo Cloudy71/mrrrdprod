@@ -28,6 +28,9 @@ public class PlayerData : NetworkBehaviour {
     [SyncVar]
     public Vector2 MovePosition;
 
+    [SyncVar]
+    public bool IsMoving;
+
 
     // Use this for initialization
     void Start() {

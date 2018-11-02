@@ -5,23 +5,20 @@ using UnityEngine.Networking;
 
 
 public class Manager : NetworkManager {
+    public static GameObject MANAGER;
 
     // Use this for initialization
-    void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    void Start() {
+        MANAGER = this.gameObject;
+    }
 
-    public override void OnStartServer()
-    {
+    // Update is called once per frame
+    void Update() {
+    }
+
+    public override void OnStartServer() {
         base.OnStartServer();
         {
-
         }
-        
     }
 }
