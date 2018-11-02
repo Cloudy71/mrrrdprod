@@ -25,11 +25,5 @@ public class Manager : NetworkManager {
         {
 
         }
-
-        // db věci..
-        Debug.Log("server started..");
-       
-        wp.Create();
-        ps.CmdCharacterSelection("hovno", 1);
     }
 }
