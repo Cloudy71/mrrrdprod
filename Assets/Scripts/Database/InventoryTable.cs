@@ -14,6 +14,7 @@ namespace Hackathon
         public static String SQL_SELECT_ID = "SELECT * FROM Inventory WHERE Slot=@slot";
         public static String SQL_INSERT = "INSERT INTO Inventory VALUES (@actual, @PlayerID, @WeaponID, @slot)";
         public static String SQL_DELETE_ID = "DELETE FROM Inventory WHERE ID=@id";
+        public static String SQL_DELETEALL = "DELETE FROM Inventory";
         public static String SQL_UPDATE = "UPDATE Inventory SET Actual=@actual, Player_ID=@PlayerID, Weapon_ID=@WeaponID, Slot=@slot WHERE Slot=@slot";
 
         /// <summary>
@@ -182,6 +183,29 @@ namespace Hackathon
             SqlCommand command = db.CreateCommand(SQL_DELETE_ID);
 
             command.Parameters.AddWithValue("@slot", id);
+            int ret = db.ExecuteNonQuery(command);
+
+            if (pDb == null)
+            {
+                db.Close();
+            }
+
+            return ret;
+        }
+
+        public static int DeleteAll(Database pDb = null)
+        {
+            Database db;
+            if (pDb == null)
+            {
+                db = new Database();
+                db.Connect();
+            }
+            else
+            {
+                db = (Database)pDb;
+            }
+            SqlCommand command = db.CreateCommand(SQL_DELETEALL);
             int ret = db.ExecuteNonQuery(command);
 
             if (pDb == null)

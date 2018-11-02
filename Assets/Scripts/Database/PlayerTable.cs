@@ -14,6 +14,7 @@ namespace Hackathon
         public static String SQL_COUNT = "SELECT COUNT(*) FROM Player";
         public static String SQL_INSERT = "INSERT INTO Player VALUES (@id, @name, @armor, @health, @skore, @InventoryID, @CharacterID)";
         public static String SQL_DELETE_ID = "DELETE FROM Player WHERE ID=@id";
+        public static String SQL_DELETEALL = "DELETE FROM Player";
         public static String SQL_UPDATE = "UPDATE Player SET Name=@name, Armor=@armor, Health=@health, Skore=@skore, Inventory_ID=@InventoryID, Character_ID=@CharacterID  WHERE ID=@id";
 
         /// <summary>
@@ -183,6 +184,29 @@ namespace Hackathon
             SqlCommand command = db.CreateCommand(SQL_DELETE_ID);
 
             command.Parameters.AddWithValue("@id", id);
+            int ret = db.ExecuteNonQuery(command);
+
+            if (pDb == null)
+            {
+                db.Close();
+            }
+
+            return ret;
+        }
+
+        public static int DeleteAll(Database pDb = null)
+        {
+            Database db;
+            if (pDb == null)
+            {
+                db = new Database();
+                db.Connect();
+            }
+            else
+            {
+                db = (Database)pDb;
+            }
+            SqlCommand command = db.CreateCommand(SQL_DELETEALL);
             int ret = db.ExecuteNonQuery(command);
 
             if (pDb == null)
