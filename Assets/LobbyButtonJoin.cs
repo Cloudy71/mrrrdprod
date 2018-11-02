@@ -18,6 +18,6 @@ public class LobbyButtonJoin : MonoBehaviour {
     public void aaa()
     {
 
-        Hackathon.PlayerSelection.CharacterSelection(GameObject.Find("IF1").GetComponent<InputField>().text, 1);
+        Hackathon.PlayerSelection.CharacterSelection(GameObject.Find("IF1").GetComponent<InputField>().text, GameObject.Find("IF1").GetComponent<InputField>().text);
     }
 }
