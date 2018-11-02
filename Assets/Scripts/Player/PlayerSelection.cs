@@ -10,9 +10,13 @@ namespace Hackathon
 
         public static GameObject LocalPlayer;
 
+        private PlayerData _playerData;
+
 
         // Use this for initialization
         void Start() {
+            _playerData = GetComponent<PlayerData>();
+            
             if (isLocalPlayer)
             {
                 LocalPlayer = this.gameObject;
@@ -56,6 +60,15 @@ namespace Hackathon
             InventoryTable.Insert(i);
 
             Debug.Log("Srv exec." + name + "," + ID);
+
+            _playerData.Name = player.Name;
+            _playerData.Armor = player.Armor;
+            _playerData.Health = player.Health;
+            _playerData.Score = player.Score;
+            _playerData.Inventory_ID = player.InventoryID;
+            _playerData.Character_ID = player.CharacterID;
+            _playerData.IsMoving = false;
+            // TODO: Generate position for player.
         }
     }
 }

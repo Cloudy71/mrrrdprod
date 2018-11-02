@@ -26,14 +26,19 @@ public class MapBlockBehaviour : MonoBehaviour {
             Physics.RaycastAll(ray, 1000f);
 
         if (raycastHits.Length > 0) {
-            GameObject nearest = raycastHits[0].transform.gameObject;
-            float dist = raycastHits[0].distance;
+            GameObject nearest = null;
+            float dist = float.MaxValue;
             foreach (RaycastHit raycastHit in raycastHits) {
+                if (!raycastHit.transform.tag.Equals("Hexagon"))
+                    continue;
                 if (raycastHit.distance < dist) {
                     dist = raycastHit.distance;
                     nearest = raycastHit.transform.gameObject;
                 }
             }
+
+            if (!nearest.tag.Equals("Hexagon") || nearest == null)
+                return;
 
             if (_lastHovered != null) {
                 _lastHovered.GetComponent<MeshRenderer>().material.SetColor("_OutlineColor", Color.black);
