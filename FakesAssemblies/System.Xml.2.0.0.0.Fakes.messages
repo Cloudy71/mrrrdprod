@@ -1,0 +1,1001 @@
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.XPath.XPathParser: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.XPath.yydebug.yyDebug: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.XPath.yydebug.yyDebugSimple: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.XPath.Token: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.XPath.yyParser.yyException: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.XPath.yyParser.yyUnexpectedEof: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.XPath.yyParser.yyInput: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.XsltPatternParser: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.yydebug.yyDebug: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.yydebug.yyDebugSimple: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.Token: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.yyParser.yyException: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.yyParser.yyUnexpectedEof: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.yyParser.yyInput: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.Tokenizer: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Consts: type is sealed.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Locale: type is sealed.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.MonoTODOAttribute: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.MonoDocumentationNoteAttribute: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.MonoExtensionAttribute: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.MonoInternalNoteAttribute: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.MonoLimitationAttribute: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.MonoNotSupportedAttribute: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XmlSchemaValidatingReader: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XsdIdentitySelector: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XsdIdentityField: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XsdIdentityPath: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XsdIdentityStep: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XsdKeyEntryField: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XsdKeyEntryFieldCollection: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XsdKeyEntry: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XsdKeyEntryCollection: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XsdKeyTable: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XsdParticleStateManager: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XsdValidationState: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XsdElementValidationState: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XsdSequenceValidationState: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XsdChoiceValidationState: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XsdAllValidationState: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XsdAnyValidationState: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XsdAppendedValidationState: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XsdEmptyValidationState: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XsdInvalidValidationState: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XsdValidatingReader: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XsdValidationContext: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XsdIDManager: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XsdWildcard: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.XPath.DTMXPathDocument: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.XPath.DTMXPathDocument2: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.XPath.DTMXPathDocumentBuilder: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.XPath.DTMXPathDocumentBuilder2: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.XPath.DTMXPathDocumentWriter: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.XPath.DTMXPathDocumentWriter2: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.XPath.DTMXPathNavigator: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.XPath.XmlNamespaces: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.XPath.DTMXPathNavigator2: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.XPath.DTMXPathLinkedNode: type is a value type.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.XPath.DTMXPathAttributeNode: type is a value type.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.XPath.DTMXPathNamespaceNode: type is a value type.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.XPath.DTMXPathLinkedNode2: type is a value type.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.XPath.DTMXPathAttributeNode2: type is a value type.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.XPath.DTMXPathNamespaceNode2: type is a value type.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.XPath.IdPattern: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.XPath.KeyPattern: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.XPath.LocationPathPattern: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.XPath.Pattern: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.XPath.UnionPattern: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.XPath.XPathEditableDocument: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.XPath.XmlDocumentInsertionWriter: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.XPath.XmlDocumentAttributeWriter: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.XPath.XmlDocumentEditableNavigator: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.XPath.XPathNavigatorReader: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.Operations.XslApplyImports: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.Operations.XslApplyTemplates: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.Operations.XslAttribute: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.Operations.XslAvt: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.Operations.XslCallTemplate: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.Operations.XslChoose: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.Operations.XslComment: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.Operations.XslCompiledElementBase: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.Operations.XslCompiledElement: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.Operations.XslCopy: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.Operations.XslCopyOf: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.Operations.XslElement: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.Operations.XslFallback: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.Operations.XslForEach: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.Operations.XslIf: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.Operations.XslLiteralElement: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.Operations.XslMessage: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.Operations.XslNotSupportedOperation: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.Operations.XslNumber: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.Operations.XslNumberingLevel: type is a value type.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.Operations.XslOperation: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.Operations.XslProcessingInstruction: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.Operations.XslTemplateContent: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.Operations.XslText: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.Operations.XslValueOf: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.Operations.XslVariableInformation: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.Operations.XslGeneralVariable: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.Operations.XslGlobalVariable: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.Operations.XslGlobalParam: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.Operations.XslLocalVariable: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.Operations.XslLocalParam: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.Operations.XPathVariableBinding: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.Attribute: type is a value type.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.CompiledStylesheet: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.Compiler: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.VariableScope: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.Sort: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.XslNameUtil: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.Debug: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.Emitter: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.GenericOutputter: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.HtmlEmitter: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.MSXslScriptManager: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.Outputter: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.TextEmitter: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.TextOutputter: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.XmlWriterEmitter: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.XslAttributeSet: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.XslDecimalFormat: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.DecimalFormatPatternSet: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.DecimalFormatPattern: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.XPFuncImpl: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.XsltExtensionFunction: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.XsltCurrent: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.XsltDocument: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.XsltElementAvailable: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.XsltFormatNumber: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.XsltFunctionAvailable: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.XsltGenerateId: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.XsltKey: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.XsltSystemProperty: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.XsltUnparsedEntityUri: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.MSXslNodeSet: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.ExprKeyContainer: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.XslKey: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.KeyIndexTable: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.OutputMethod: type is a value type.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.StandaloneType: type is a value type.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.XslOutput: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.XslSortEvaluator: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.XslStylesheet: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.XslModedTemplateTable: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.XslTemplateTable: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.XslTemplate: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.XslDefaultNodeTemplate: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.XslEmptyTemplate: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.XslDefaultTextTemplate: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.XslTransformProcessor: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.XsltCompiledContext: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Xsl.XsltDebuggerWrapper: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.IHasXmlParserContext: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.IHasXmlSchemaInfo: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.SubtreeXmlReader: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.XmlFilterReader: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XmlNodeWriter: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XsdWhitespaceFacet: type is a value type.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XsdOrderedFacet: type is a value type.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XsdOrdering: type is a value type.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XsdAnySimpleType: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XdtAnyAtomicType: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XdtUntypedAtomic: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XsdString: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XsdNormalizedString: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XsdToken: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XsdLanguage: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XsdNMToken: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XsdNMTokens: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XsdName: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XsdNCName: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XsdID: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XsdIDRef: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XsdIDRefs: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XsdEntity: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XsdEntities: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XsdNotation: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XsdDecimal: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XsdInteger: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XsdLong: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XsdInt: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XsdShort: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XsdByte: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XsdNonNegativeInteger: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XsdUnsignedLong: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XsdUnsignedInt: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XsdUnsignedShort: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XsdUnsignedByte: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XsdPositiveInteger: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XsdNonPositiveInteger: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XsdNegativeInteger: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XsdFloat: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XsdDouble: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XsdBase64Binary: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XsdHexBinary: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XsdQName: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XsdBoolean: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XsdAnyURI: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XmlSchemaUri: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XsdDuration: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XdtDayTimeDuration: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XdtYearMonthDuration: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XsdDateTime: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XsdDate: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XsdTime: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XsdGYearMonth: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XsdGMonthDay: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XsdGYear: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XsdGMonth: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.Schema.XsdGDay: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Schema.QNameValueType: type is a value type.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Schema.StringValueType: type is a value type.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Schema.UriValueType: type is a value type.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Schema.StringArrayValueType: type is a value type.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Schema.ValidationEventArgs: type has no family visible contructors.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Schema.ValidationHandler: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Schema.XmlAtomicValue: type is sealed.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Schema.XmlSchemaSerializer: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Schema.XmlSchemaCollection: type is sealed.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Schema.XmlSchemaCollectionEnumerator: type is sealed.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Schema.XmlSchemaCompilationSettings: type is sealed.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Schema.XmlSchemaContentProcessing: type is a value type.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Schema.XmlSchemaContentType: type is a value type.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Schema.XmlSchemaDatatypeVariety: type is a value type.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Schema.XmlSchemaDerivationMethod: type is a value type.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Schema.XmlSchemaForm: type is a value type.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Schema.XmlSchemaInference: type is sealed.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Schema.XsdInference: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Schema.XmlSchemaObjectEnumerator: type has no family visible contructors.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Schema.XmlSchemaObjectTable: type has no family visible contructors.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Schema.XmlSchemaReader: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Schema.XmlSchemaSerializationWriter: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Schema.XmlSchemaUse: type is a value type.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Schema.XmlSchemaUtil: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Schema.XmlSchemaValidationFlags: type is a value type.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Schema.XmlSchemaValidator: type is sealed.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Schema.XmlSchemaValidity: type is a value type.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Schema.XmlSeverityType: type is a value type.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Schema.XmlTypeCode: type is a value type.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Serialization.CodeGenerationOptions: type is a value type.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Serialization.KeyHelper: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Serialization.ReflectionHelper: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Serialization.SchemaTypes: type is a value type.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Serialization.SerializationCodeGenerator: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Serialization.GenerationResult: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Serialization.SerializationCodeGeneratorConfiguration: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Serialization.SerializerInfo: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Serialization.Hook: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Serialization.Select: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Serialization.HookAction: type is a value type.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Serialization.HookType: type is a value type.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Serialization.SerializationSource: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Serialization.XmlTypeSerializationSource: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Serialization.SoapTypeSerializationSource: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Serialization.MembersSerializationSource: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Serialization.TypeData: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Serialization.TypeMember: type is sealed.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Serialization.TypeTranslator: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Serialization.XmlAttributeEventArgs: type has no family visible contructors.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Serialization.XmlCustomFormatter: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Serialization.XmlDeserializationEvents: type is a value type.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Serialization.XmlElementEventArgs: type has no family visible contructors.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Serialization.XmlMapping: type has no family visible contructors.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Serialization.ObjectMap: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Serialization.SerializationFormat: type is a value type.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Serialization.XmlMappingAccess: type is a value type.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Serialization.XmlMemberMapping: type has no family visible contructors.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Serialization.XmlMembersMapping: type has no family visible contructors.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Serialization.XmlNodeEventArgs: type has no family visible contructors.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Serialization.XmlSchemaProviderAttribute: type is sealed.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Serialization.XmlSerializationReaderInterpreter: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Serialization.XmlSerializationWriterInterpreter: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Serialization.XmlSerializerAssemblyAttribute: type is sealed.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Serialization.XmlSerializerVersionAttribute: type is sealed.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Serialization.XmlTypeMapElementInfo: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Serialization.XmlTypeMapElementInfoList: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Serialization.XmlTypeMapMember: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Serialization.XmlTypeMapMemberAttribute: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Serialization.XmlTypeMapMemberElement: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Serialization.XmlTypeMapMemberList: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Serialization.XmlTypeMapMemberExpandable: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Serialization.XmlTypeMapMemberFlatList: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Serialization.XmlTypeMapMemberAnyElement: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Serialization.XmlTypeMapMemberAnyAttribute: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Serialization.XmlTypeMapMemberNamespaces: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Serialization.XmlTypeMapping: type has no family visible contructors.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Serialization.XmlSerializableMapping: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Serialization.ClassMap: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Serialization.ListMap: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Serialization.EnumMap: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.XPathFunctions: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.XPathFunction: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.XPathFunctionLast: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.XPathFunctionPosition: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.XPathFunctionCount: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.XPathFunctionId: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.XPathFunctionLocalName: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.XPathFunctionNamespaceUri: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.XPathFunctionName: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.XPathFunctionString: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.XPathFunctionConcat: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.XPathFunctionStartsWith: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.XPathFunctionContains: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.XPathFunctionSubstringBefore: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.XPathFunctionSubstringAfter: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.XPathFunctionSubstring: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.XPathFunctionStringLength: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.XPathFunctionNormalizeSpace: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.XPathFunctionTranslate: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.XPathBooleanFunction: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.XPathFunctionBoolean: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.XPathFunctionNot: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.XPathFunctionTrue: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.XPathFunctionFalse: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.XPathFunctionLang: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.XPathNumericFunction: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.XPathFunctionNumber: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.XPathFunctionSum: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.XPathFunctionFloor: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.XPathFunctionCeil: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.XPathFunctionRound: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.ExpressionCache: type is sealed.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.CompiledExpression: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.XPathSortElement: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.XPathSorters: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.XPathSorter: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.Expression: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.ExprBinary: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.ExprBoolean: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.ExprOR: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.ExprAND: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.EqualityExpr: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.ExprEQ: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.ExprNE: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.RelationalExpr: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.ExprGT: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.ExprGE: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.ExprLT: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.ExprLE: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.ExprNumeric: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.ExprPLUS: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.ExprMINUS: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.ExprMULT: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.ExprDIV: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.ExprMOD: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.ExprNEG: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.NodeSet: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.ExprUNION: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.ExprSLASH: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.ExprSLASH2: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.ExprRoot: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.Axes: type is a value type.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.AxisSpecifier: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.NodeTest: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.NodeTypeTest: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.NodeNameTest: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.ExprFilter: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.ExprNumber: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.BooleanConstant: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.ExprLiteral: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.ExprVariable: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.ExprParens: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.FunctionArguments: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.ExprFunctionCall: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.BaseIterator: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.WrapperIterator: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.SimpleIterator: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.SelfIterator: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.NullIterator: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.ParensIterator: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.ParentIterator: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.ChildIterator: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.FollowingSiblingIterator: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.PrecedingSiblingIterator: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.AncestorIterator: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.AncestorOrSelfIterator: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.DescendantIterator: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.DescendantOrSelfIterator: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.FollowingIterator: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.PrecedingIterator: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.NamespaceIterator: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.AttributeIterator: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.AxisIterator: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.SimpleSlashIterator: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.SortedIterator: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.SlashIterator: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.PredicateIterator: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.ListIterator: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.UnionIterator: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.OrderedIterator: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.XPath.Tokenizer: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.XPathIteratorComparer: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.XPathNavigatorComparer: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.XPathExpression: type has no family visible contructors.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.XPathNamespaceScope: type is a value type.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.XPathNodeType: type is a value type.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.XPathResultType: type is a value type.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.XmlCaseOrder: type is a value type.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.XmlDataType: type is a value type.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XPath.XmlSortOrder: type is a value type.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Xsl.XslCompiledTransform: type is sealed.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Xsl.NoOperationDebugger: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Xsl.SimpleXsltDebugger: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Xsl.XslTransform: type is sealed.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Xsl.IStaticXsltContext: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Xsl.XsltSettings: type is sealed.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.ConformanceLevel: type is a value type.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.DTDAutomataFactory: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.DTDAutomata: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.DTDElementAutomata: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.DTDChoiceAutomata: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.DTDSequenceAutomata: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.DTDOneOrMoreAutomata: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.DTDEmptyAutomata: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.DTDAnyAutomata: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.DTDInvalidAutomata: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.DTDObjectModel: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.DictionaryBase: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.DTDCollectionBase: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.DTDElementDeclarationCollection: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.DTDAttListDeclarationCollection: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.DTDEntityDeclarationCollection: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.DTDNotationDeclarationCollection: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.DTDContentModel: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.DTDContentModelCollection: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.DTDNode: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.DTDElementDeclaration: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.DTDAttributeDefinition: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.DTDAttListDeclaration: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.DTDEntityBase: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.DTDEntityDeclaration: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.DTDNotationDeclaration: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.DTDParameterEntityDeclarationCollection: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.DTDParameterEntityDeclaration: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.DTDContentOrderType: type is a value type.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.DTDAttributeOccurenceType: type is a value type.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.DTDOccurence: type is a value type.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.DTDReader: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.DTDValidatingReader: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.EntityHandling: type is a value type.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.EntityResolvingXmlReader: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Formatting: type is a value type.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.IHasXmlChildNode: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.MonoFIXAttribute: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.NamespaceHandling: type is a value type.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.NewLineHandling: type is a value type.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.ReadState: type is a value type.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.ValidationType: type is a value type.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.WhitespaceHandling: type is a value type.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.WriteState: type is a value type.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XQueryConvert: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XmlAttributeCollection: type is sealed.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XmlChar: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XmlConstructs: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XmlDateTimeSerializationMode: type is a value type.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XmlDocumentNavigator: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XmlEntity: type has no family visible contructors.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XmlStreamReader: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.NonBlockingStreamReader: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XmlInputStream: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XmlIteratorNodeList: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XmlLinkedNode: type has no family visible contructors.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XmlNameEntry: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XmlNameEntryCache: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XmlNamedNodeMap: type has no family visible contructors.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XmlNamespaceScope: type is a value type.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XmlNode: type has no family visible contructors.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XmlNodeArrayList: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XmlNodeChangedAction: type is a value type.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XmlNodeListChildren: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XmlNodeOrder: type is a value type.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XmlNodeReaderImpl: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XmlNodeType: type is a value type.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XmlNotation: type has no family visible contructors.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XmlOutputMethod: type is a value type.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XmlParserInput: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XmlReaderBinarySupport: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XmlReaderSettings: type is sealed.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XmlSpace: type is a value type.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml2.XmlTextReader: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XmlTokenizedType: type is a value type.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XmlValidatingReader: type is obsolete.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XmlWriterSettings: type is sealed.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for Mono.Xml.XPath.XmlWriterClosedEventHandler: type is sealed.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Schema.ValidationEventHandler: type is sealed.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Schema.XmlValueGetter: type is sealed.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Serialization.UnreferencedObjectEventHandler: type is sealed.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Serialization.XmlAttributeEventHandler: type is sealed.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Serialization.XmlElementEventHandler: type is sealed.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Serialization.XmlNodeEventHandler: type is sealed.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Serialization.XmlSerializationCollectionFixupCallback: type is sealed.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Serialization.XmlSerializationFixupCallback: type is sealed.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Serialization.XmlSerializationReadCallback: type is sealed.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Serialization.XmlSerializationWriteCallback: type is sealed.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.Xsl.XsltMessageEncounteredEventHandler: type is sealed.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for System.Xml.XmlNodeChangedEventHandler: type is sealed.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate stub for <PrivateImplementationDetails>: type is not supported because of internal limitations.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.XPath.XPathParser: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.XPath.yydebug.yyDebug: type is an interface.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.XPath.yydebug.yyDebugSimple: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.XPath.Token: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.XPath.yyParser.yyException: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.XPath.yyParser.yyUnexpectedEof: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.XPath.yyParser.yyInput: type is an interface.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.XsltPatternParser: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.yydebug.yyDebug: type is an interface.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.yydebug.yyDebugSimple: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.Token: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.yyParser.yyException: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.yyParser.yyUnexpectedEof: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.yyParser.yyInput: type is an interface.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.Tokenizer: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Consts: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Locale: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.MonoTODOAttribute: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.MonoDocumentationNoteAttribute: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.MonoExtensionAttribute: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.MonoInternalNoteAttribute: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.MonoLimitationAttribute: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.MonoNotSupportedAttribute: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XmlSchemaValidatingReader: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XsdIdentitySelector: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XsdIdentityField: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XsdIdentityPath: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XsdIdentityStep: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XsdKeyEntryField: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XsdKeyEntryFieldCollection: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XsdKeyEntry: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XsdKeyEntryCollection: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XsdKeyTable: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XsdParticleStateManager: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XsdValidationState: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XsdElementValidationState: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XsdSequenceValidationState: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XsdChoiceValidationState: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XsdAllValidationState: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XsdAnyValidationState: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XsdAppendedValidationState: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XsdEmptyValidationState: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XsdInvalidValidationState: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XsdValidatingReader: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XsdValidationContext: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XsdIDManager: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XsdWildcard: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.XPath.DTMXPathDocument: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.XPath.DTMXPathDocument2: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.XPath.DTMXPathDocumentBuilder: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.XPath.DTMXPathDocumentBuilder2: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.XPath.DTMXPathDocumentWriter: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.XPath.DTMXPathDocumentWriter2: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.XPath.DTMXPathNavigator: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.XPath.XmlNamespaces: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.XPath.DTMXPathNavigator2: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.XPath.DTMXPathLinkedNode: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.XPath.DTMXPathAttributeNode: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.XPath.DTMXPathNamespaceNode: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.XPath.DTMXPathLinkedNode2: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.XPath.DTMXPathAttributeNode2: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.XPath.DTMXPathNamespaceNode2: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.XPath.IdPattern: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.XPath.KeyPattern: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.XPath.LocationPathPattern: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.XPath.Pattern: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.XPath.UnionPattern: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.XPath.XPathEditableDocument: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.XPath.XmlDocumentInsertionWriter: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.XPath.XmlDocumentAttributeWriter: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.XPath.XmlDocumentEditableNavigator: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.XPath.XPathNavigatorReader: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.Operations.XslApplyImports: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.Operations.XslApplyTemplates: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.Operations.XslAttribute: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.Operations.XslAvt: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.Operations.XslCallTemplate: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.Operations.XslChoose: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.Operations.XslComment: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.Operations.XslCompiledElementBase: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.Operations.XslCompiledElement: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.Operations.XslCopy: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.Operations.XslCopyOf: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.Operations.XslElement: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.Operations.XslFallback: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.Operations.XslForEach: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.Operations.XslIf: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.Operations.XslLiteralElement: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.Operations.XslMessage: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.Operations.XslNotSupportedOperation: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.Operations.XslNumber: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.Operations.XslNumberingLevel: type is an enum.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.Operations.XslOperation: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.Operations.XslProcessingInstruction: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.Operations.XslTemplateContent: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.Operations.XslText: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.Operations.XslValueOf: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.Operations.XslVariableInformation: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.Operations.XslGeneralVariable: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.Operations.XslGlobalVariable: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.Operations.XslGlobalParam: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.Operations.XslLocalVariable: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.Operations.XslLocalParam: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.Operations.XPathVariableBinding: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.Attribute: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.CompiledStylesheet: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.Compiler: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.VariableScope: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.Sort: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.XslNameUtil: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.Debug: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.Emitter: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.GenericOutputter: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.HtmlEmitter: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.MSXslScriptManager: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.Outputter: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.TextEmitter: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.TextOutputter: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.XmlWriterEmitter: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.XslAttributeSet: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.XslDecimalFormat: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.DecimalFormatPatternSet: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.DecimalFormatPattern: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.XPFuncImpl: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.XsltExtensionFunction: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.XsltCurrent: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.XsltDocument: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.XsltElementAvailable: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.XsltFormatNumber: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.XsltFunctionAvailable: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.XsltGenerateId: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.XsltKey: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.XsltSystemProperty: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.XsltUnparsedEntityUri: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.MSXslNodeSet: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.ExprKeyContainer: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.XslKey: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.KeyIndexTable: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.OutputMethod: type is an enum.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.StandaloneType: type is an enum.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.XslOutput: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.XslSortEvaluator: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.XslStylesheet: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.XslModedTemplateTable: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.XslTemplateTable: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.XslTemplate: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.XslDefaultNodeTemplate: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.XslEmptyTemplate: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.XslDefaultTextTemplate: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.XslTransformProcessor: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.XsltCompiledContext: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Xsl.XsltDebuggerWrapper: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.IHasXmlParserContext: type is an interface.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.IHasXmlSchemaInfo: type is an interface.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.SubtreeXmlReader: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.XmlFilterReader: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XmlNodeWriter: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XsdWhitespaceFacet: type is an enum.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XsdOrderedFacet: type is an enum.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XsdOrdering: type is an enum.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XsdAnySimpleType: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XdtAnyAtomicType: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XdtUntypedAtomic: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XsdString: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XsdNormalizedString: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XsdToken: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XsdLanguage: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XsdNMToken: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XsdNMTokens: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XsdName: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XsdNCName: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XsdID: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XsdIDRef: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XsdIDRefs: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XsdEntity: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XsdEntities: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XsdNotation: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XsdDecimal: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XsdInteger: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XsdLong: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XsdInt: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XsdShort: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XsdByte: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XsdNonNegativeInteger: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XsdUnsignedLong: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XsdUnsignedInt: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XsdUnsignedShort: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XsdUnsignedByte: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XsdPositiveInteger: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XsdNonPositiveInteger: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XsdNegativeInteger: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XsdFloat: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XsdDouble: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XsdBase64Binary: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XsdHexBinary: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XsdQName: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XsdBoolean: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XsdAnyURI: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XmlSchemaUri: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XsdDuration: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XdtDayTimeDuration: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XdtYearMonthDuration: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XsdDateTime: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XsdDate: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XsdTime: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XsdGYearMonth: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XsdGMonthDay: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XsdGYear: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XsdGMonth: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.Schema.XsdGDay: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Schema.IXmlSchemaInfo: type is an interface.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Schema.QNameValueType: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Schema.StringValueType: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Schema.UriValueType: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Schema.StringArrayValueType: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Schema.ValidationHandler: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Schema.XmlSchemaSerializer: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Schema.XmlSchemaCollection: type is obsolete.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Schema.XmlSchemaContentProcessing: type is an enum.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Schema.XmlSchemaContentType: type is an enum.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Schema.XmlSchemaDatatypeVariety: type is an enum.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Schema.XmlSchemaDerivationMethod: type is an enum.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Schema.XmlSchemaFacet+Facet: type is an enum.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Schema.XmlSchemaForm: type is an enum.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Schema.XmlSchemaInference+InferenceOption: type is an enum.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Schema.XsdInference: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Schema.XmlSchemaObjectTable+XmlSchemaObjectTableEnumerator: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Schema.XmlSchemaParticle+EmptyParticle: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Schema.XmlSchemaReader: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Schema.XmlSchemaSerializationWriter: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Schema.XmlSchemaUse: type is an enum.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Schema.XmlSchemaUtil: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Schema.XmlSchemaValidationFlags: type is an enum.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Schema.XmlSchemaValidator+<ValidateAttribute>c__AnonStorey6: type is not supported because of internal limitations.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Schema.XmlSchemaValidator+<ValidateText>c__AnonStorey7: type is not supported because of internal limitations.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Schema.XmlSchemaValidator+<ValidateWhitespace>c__AnonStorey8: type is not supported because of internal limitations.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Schema.XmlSchemaValidator+Transition: type is an enum.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Schema.XmlSchemaValidity: type is an enum.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Schema.XmlSeverityType: type is an enum.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Schema.XmlTypeCode: type is an enum.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Serialization.CodeGenerationOptions: type is an enum.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Serialization.IXmlSerializable: type is an interface.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Serialization.IXmlTextParser: type is an interface.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Serialization.KeyHelper: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Serialization.ReflectionHelper: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Serialization.SchemaTypes: type is an enum.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Serialization.SerializationCodeGenerator: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Serialization.GenerationResult: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Serialization.SerializationCodeGeneratorConfiguration: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Serialization.SerializerInfo: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Serialization.Hook: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Serialization.Select: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Serialization.HookAction: type is an enum.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Serialization.HookType: type is an enum.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Serialization.SerializationSource: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Serialization.XmlTypeSerializationSource: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Serialization.SoapTypeSerializationSource: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Serialization.MembersSerializationSource: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Serialization.TypeData: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Serialization.TypeMember: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Serialization.TypeTranslator: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Serialization.XmlCustomFormatter: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Serialization.ObjectMap: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Serialization.SerializationFormat: type is an enum.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Serialization.XmlMappingAccess: type is an enum.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Serialization.XmlSchemaExporter+XmlSchemaObjectContainer: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Serialization.XmlSchemaImporter+MapFixup: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Serialization.XmlSerializationReader+CollectionFixup: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Serialization.XmlSerializationReader+CollectionItemFixup: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Serialization.XmlSerializationReader+Fixup: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Serialization.XmlSerializationReader+WriteCallbackInfo: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Serialization.XmlSerializationReaderInterpreter: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Serialization.XmlSerializationWriter+WriteCallbackInfo: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Serialization.XmlSerializationWriterInterpreter: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Serialization.XmlSerializer+GenerationBatch: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Serialization.XmlSerializer+SerializerData: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Serialization.XmlTypeMapElementInfo: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Serialization.XmlTypeMapElementInfoList: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Serialization.XmlTypeMapMember: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Serialization.XmlTypeMapMemberAttribute: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Serialization.XmlTypeMapMemberElement: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Serialization.XmlTypeMapMemberList: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Serialization.XmlTypeMapMemberExpandable: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Serialization.XmlTypeMapMemberFlatList: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Serialization.XmlTypeMapMemberAnyElement: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Serialization.XmlTypeMapMemberAnyAttribute: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Serialization.XmlTypeMapMemberNamespaces: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Serialization.XmlSerializableMapping: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Serialization.ClassMap: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Serialization.ListMap: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Serialization.EnumMap: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.XPathFunctions: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.XPathFunction: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.XPathFunctionLast: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.XPathFunctionPosition: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.XPathFunctionCount: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.XPathFunctionId: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.XPathFunctionLocalName: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.XPathFunctionNamespaceUri: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.XPathFunctionName: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.XPathFunctionString: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.XPathFunctionConcat: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.XPathFunctionStartsWith: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.XPathFunctionContains: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.XPathFunctionSubstringBefore: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.XPathFunctionSubstringAfter: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.XPathFunctionSubstring: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.XPathFunctionStringLength: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.XPathFunctionNormalizeSpace: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.XPathFunctionTranslate: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.XPathBooleanFunction: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.XPathFunctionBoolean: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.XPathFunctionNot: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.XPathFunctionTrue: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.XPathFunctionFalse: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.XPathFunctionLang: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.XPathNumericFunction: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.XPathFunctionNumber: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.XPathFunctionSum: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.XPathFunctionFloor: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.XPathFunctionCeil: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.XPathFunctionRound: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.ExpressionCache: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.CompiledExpression: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.XPathSortElement: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.XPathSorters: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.XPathSorter: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.Expression: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.ExprBinary: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.ExprBoolean: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.ExprOR: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.ExprAND: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.EqualityExpr: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.ExprEQ: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.ExprNE: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.RelationalExpr: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.ExprGT: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.ExprGE: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.ExprLT: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.ExprLE: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.ExprNumeric: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.ExprPLUS: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.ExprMINUS: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.ExprMULT: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.ExprDIV: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.ExprMOD: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.ExprNEG: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.NodeSet: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.ExprUNION: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.ExprSLASH: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.ExprSLASH2: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.ExprRoot: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.Axes: type is an enum.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.AxisSpecifier: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.NodeTest: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.NodeTypeTest: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.NodeNameTest: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.ExprFilter: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.ExprNumber: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.BooleanConstant: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.ExprLiteral: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.ExprVariable: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.ExprParens: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.FunctionArguments: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.ExprFunctionCall: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.IXPathNavigable: type is an interface.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.BaseIterator: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.WrapperIterator: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.SimpleIterator: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.SelfIterator: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.NullIterator: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.ParensIterator: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.ParentIterator: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.ChildIterator: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.FollowingSiblingIterator: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.PrecedingSiblingIterator: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.AncestorIterator: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.AncestorOrSelfIterator: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.DescendantIterator: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.DescendantOrSelfIterator: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.FollowingIterator: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.PrecedingIterator: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.NamespaceIterator: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.AttributeIterator: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.AxisIterator: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.SimpleSlashIterator: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.SortedIterator: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.SlashIterator: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.PredicateIterator: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.ListIterator: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.UnionIterator: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.OrderedIterator: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.XPath.Tokenizer: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.XPathIteratorComparer: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.XPathNavigatorComparer: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.XPathNamespaceScope: type is an enum.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.XPathNavigator+<EnumerateChildren>c__Iterator0: type is not supported because of internal limitations.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.XPathNavigator+<EnumerateChildren>c__Iterator1: type is not supported because of internal limitations.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.XPathNavigator+EnumerableIterator: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.XPathNodeIterator+<GetEnumerator>c__Iterator2: type is not supported because of internal limitations.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.XPathNodeType: type is an enum.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.XPathResultType: type is an enum.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.XmlCaseOrder: type is an enum.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.XmlDataType: type is an enum.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XPath.XmlSortOrder: type is an enum.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Xsl.IXsltContextFunction: type is an interface.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Xsl.IXsltContextVariable: type is an interface.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Xsl.NoOperationDebugger: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Xsl.SimpleXsltDebugger: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Xsl.IStaticXsltContext: type is an interface.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.ConformanceLevel: type is an enum.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.DTDAutomataFactory: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.DTDAutomata: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.DTDElementAutomata: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.DTDChoiceAutomata: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.DTDSequenceAutomata: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.DTDOneOrMoreAutomata: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.DTDEmptyAutomata: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.DTDAnyAutomata: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.DTDInvalidAutomata: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.DTDObjectModel: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.DictionaryBase: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.DTDCollectionBase: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.DTDElementDeclarationCollection: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.DTDAttListDeclarationCollection: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.DTDEntityDeclarationCollection: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.DTDNotationDeclarationCollection: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.DTDContentModel: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.DTDContentModelCollection: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.DTDNode: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.DTDElementDeclaration: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.DTDAttributeDefinition: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.DTDAttListDeclaration: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.DTDEntityBase: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.DTDEntityDeclaration: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.DTDNotationDeclaration: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.DTDParameterEntityDeclarationCollection: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.DTDParameterEntityDeclaration: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.DTDContentOrderType: type is an enum.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.DTDAttributeOccurenceType: type is an enum.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.DTDOccurence: type is an enum.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.DTDReader: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.DTDValidatingReader: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.EntityHandling: type is an enum.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.EntityResolvingXmlReader: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Formatting: type is an enum.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.IHasXmlChildNode: type is an interface.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.IHasXmlNode: type is an interface.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.IXmlLineInfo: type is an interface.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.IXmlNamespaceResolver: type is an interface.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.MonoFIXAttribute: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.NameTable+Entry: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.NamespaceHandling: type is an enum.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.NewLineHandling: type is an enum.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.ReadState: type is an enum.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.ValidationType: type is an enum.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.WhitespaceHandling: type is an enum.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.WriteState: type is an enum.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XQueryConvert: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XmlChar: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XmlConstructs: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XmlDateTimeSerializationMode: type is an enum.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XmlDocumentNavigator: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XmlStreamReader: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.NonBlockingStreamReader: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XmlInputStream: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XmlIteratorNodeList: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XmlNameEntry: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XmlNameEntryCache: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XmlNamespaceManager+NsDecl: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XmlNamespaceManager+NsScope: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XmlNamespaceScope: type is an enum.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XmlNode+EmptyNodeList: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XmlNodeArrayList: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XmlNodeChangedAction: type is an enum.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XmlNodeListChildren: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XmlNodeOrder: type is an enum.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XmlNodeReaderImpl: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XmlNodeType: type is an enum.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XmlOutputMethod: type is an enum.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XmlParserContext+ContextItem: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XmlParserInput: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XmlReaderBinarySupport: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XmlSpace: type is an enum.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml2.XmlTextReader: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XmlTextWriter+StringUtil: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XmlTextWriter+XmlDeclState: type is an enum.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XmlTextWriter+XmlNodeInfo: type is not visible to exported or assembly(System.Xml.2.0.0.0.Fakes).
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XmlTokenizedType: type is an enum.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XmlValidatingReader: type is obsolete.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for Mono.Xml.XPath.XmlWriterClosedEventHandler: type is a delegate.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Schema.ValidationEventHandler: type is a delegate.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Schema.XmlValueGetter: type is a delegate.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Serialization.UnreferencedObjectEventHandler: type is a delegate.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Serialization.XmlAttributeEventHandler: type is a delegate.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Serialization.XmlElementEventHandler: type is a delegate.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Serialization.XmlNodeEventHandler: type is a delegate.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Serialization.XmlSerializationCollectionFixupCallback: type is a delegate.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Serialization.XmlSerializationFixupCallback: type is a delegate.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Serialization.XmlSerializationReadCallback: type is a delegate.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Serialization.XmlSerializationWriteCallback: type is a delegate.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.Xsl.XsltMessageEncounteredEventHandler: type is a delegate.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for System.Xml.XmlNodeChangedEventHandler: type is a delegate.
+C:\Users\homaarad\Documents\hackathon\Fakes\System.Xml.fakes : warning : Cannot generate shim for <PrivateImplementationDetails>: type is not supported because of internal limitations.

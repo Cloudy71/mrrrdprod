@@ -8,15 +8,23 @@ namespace Hackathon
 {
     public class PlayerSelection : NetworkBehaviour {
 
-        
+        public static GameObject LocalPlayer;
+
+
         // Use this for initialization
         void Start() {
-
+            if (isLocalPlayer)
+                LocalPlayer = this.gameObject;
         }
 
         // Update is called once per frame
         void Update() {
 
+        }
+
+        public static void CharacterSelection(string name, int ID)
+        {
+            LocalPlayer.GetComponent<PlayerSelection>().CmdCharacterSelection(name, ID);
         }
 
         [Command]
@@ -26,7 +34,7 @@ namespace Hackathon
             Character c = CharacterTable.Select(ID);
             Inventory i = new Inventory();
             Weapon w = WeaponTable.Select(c.Weapon);
-            player.ID = PlayerTable.Select_Count()+1;
+            player.ID = PlayerTable.Select_Count() + 1;
             player.Name = name;
             player.Health = Constants.player_basehealth + c.BHealth;
             player.Score = 0;
@@ -35,12 +43,13 @@ namespace Hackathon
             player.InventoryID = InventoryTable.Select_Count() + 1;
             PlayerTable.Insert(player);
 
-            
             i.Current = w.Ammo;
             i.Player_ID = player.ID;
             i.Weapon_ID = c.Weapon;
-            i.Slot = 1;
+            i.Slot = InventoryTable.Select_Count() + 1;
             InventoryTable.Insert(i);
+
+            Debug.Log("Srv exec.");
         }
     }
 }
