@@ -8,12 +8,13 @@ namespace Hackathon
     {
         public static void create()
         {
-            createCharacter("Heavy", 10, 10, 10, 1);
-            createCharacter("Sniper", 10, 10, 10, 2);
-            createCharacter("Scout", 10, 10, 10, 3);
-            createCharacter("Coldsteel", 10, 10, 10, 4);
-            createCharacter("Redneck", 10, 10, 10, 5);
-            createCharacter("Pepe", 10, 10, 10, 6);
+                            //name  stamina  attack   health   weapon
+            createCharacter("Heavy",    10,    10,      10,      1);
+            createCharacter("Sniper",   10,    10,      10,      2);
+            createCharacter("Scout",    10,    10,      10,      3);
+            createCharacter("Coldsteel",10,    10,      10,      4);
+            createCharacter("Redneck",  10,    10,      10,      5);
+            createCharacter("Pepe",     10,    10,      10,      6);
 
         }
 

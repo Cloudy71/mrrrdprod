@@ -8,7 +8,7 @@ namespace Hackathon
 {
     public class PlayerSelection : NetworkBehaviour {
 
-        Constants constants = new Constants();
+        
         // Use this for initialization
         void Start() {
 
@@ -19,7 +19,7 @@ namespace Hackathon
 
         }
 
-        //[Command]
+        [Command]
         public void CmdCharacterSelection(string name, int ID)
         {
             Player player = new Player();
@@ -28,7 +28,7 @@ namespace Hackathon
             Weapon w = WeaponTable.Select(c.Weapon);
             player.ID = PlayerTable.Select_Count()+1;
             player.Name = name;
-            player.Health = constants.player_basehealth + c.BHealth;
+            player.Health = Constants.player_basehealth + c.BHealth;
             player.Score = 0;
             player.Armor = 0;
             player.CharacterID = ID;
@@ -41,10 +41,6 @@ namespace Hackathon
             i.Weapon_ID = c.Weapon;
             i.Slot = 1;
             InventoryTable.Insert(i);
-
-
-
-
         }
     }
 }

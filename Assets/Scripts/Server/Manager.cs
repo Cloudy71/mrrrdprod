@@ -6,9 +6,6 @@ using UnityEngine.Networking;
 
 public class Manager : NetworkManager {
 
-    Hackathon.PlayerSelection ps = new Hackathon.PlayerSelection();
-    Hackathon.WeaponsFiller wp = new Hackathon.WeaponsFiller();
-
     // Use this for initialization
     void Start () {
 		
