@@ -21,7 +21,9 @@ GameObject:
   - component: {fileID: 4059514606984680}
   - component: {fileID: 33079260427323534}
   - component: {fileID: 23593959296889666}
-  - component: {fileID: 114048867298276420}
+  - component: {fileID: 64016669232766142}
+  - component: {fileID: 114727277397169470}
+  - component: {fileID: 114487915124893318}
   m_Layer: 0
   m_Name: hexagon
   m_TagString: Untagged
@@ -36,7 +38,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1288450262120090}
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 8.433834, y: -2.8695595, z: -3.6562545}
   m_LocalScale: {x: 57.735, y: 50, z: 25}
   m_Children: []
   m_Father: {fileID: 0}
@@ -84,7 +86,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1288450262120090}
   m_Mesh: {fileID: 4300000, guid: 4481792a2f3910144b96ba60261903ef, type: 3}
---- !u!114 &114048867298276420
+--- !u!64 &64016669232766142
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1288450262120090}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: 4481792a2f3910144b96ba60261903ef, type: 3}
+--- !u!114 &114487915124893318
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -92,12 +108,39 @@ MonoBehaviour:
   m_GameObject: {fileID: 1288450262120090}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  outlineMode: 0
-  outlineColor: {r: 0, g: 0, b: 0, a: 1}
-  outlineWidth: 2
-  precomputeOutline: 0
-  bakeKeys: []
-  bakeValues: []
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 154
+    i1: 170
+    i2: 131
+    i3: 82
+    i4: 181
+    i5: 115
+    i6: 49
+    i7: 148
+    i8: 57
+    i9: 130
+    i10: 137
+    i11: 106
+    i12: 92
+    i13: 251
+    i14: 104
+    i15: 85
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
+--- !u!114 &114727277397169470
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1288450262120090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 051101c7b80ca564b8e098ab21f9d45b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Type: 0

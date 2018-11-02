@@ -24,4 +24,8 @@ public class Map : MonoBehaviour {
     public GameObject GetBlockOnPosition(int x, int y) {
         return GetBlockOnPosition(new Vector2(x, y));
     }
+
+    public Block.BlockType GetBlockTypeOnPosition(Vector2 position) {
+        return GetBlockOnPosition(position).GetComponent<Block>().Type;
+    }
 }

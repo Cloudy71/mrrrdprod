@@ -36,11 +36,14 @@ public class MapGenerator : MonoBehaviour {
                                           0f,
                                           j * MapOffsets[4].y);
                 GameObject gObject = Instantiate(HexagonPrefab, pos, HexagonPrefab.transform.rotation);
+                Block block = gObject.GetComponent<Block>();
                 if (i == 0 || i == Width - 1 || j == 0 || j == Height - 1) {
                     gObject.GetComponent<MeshRenderer>().material = WallMaterial;
+                    block.Type = Block.BlockType.Solid;
                 }
                 else {
                     gObject.GetComponent<MeshRenderer>().material = GroundMaterial;
+                    block.Type = Block.BlockType.Moveable;
                 }
 
                 left = !left;

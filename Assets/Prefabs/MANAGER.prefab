@@ -20,6 +20,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4124580246410868}
   - component: {fileID: 114699935593033952}
+  - component: {fileID: 114698422015792772}
+  - component: {fileID: 114889098484736964}
+  - component: {fileID: 114645873633240830}
   m_Layer: 0
   m_Name: MANAGER
   m_TagString: Untagged
@@ -40,6 +43,34 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114645873633240830
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1535314968474834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b29d1c4e9733f142b260b5ab3a101d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114698422015792772
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1535314968474834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1da325508747799428cf1d18576d4fdf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HexagonPrefab: {fileID: 1288450262120090, guid: 9aaa8352b57331943982896a5cfb6855,
+    type: 2}
+  Width: 16
+  Height: 16
+  GroundMaterial: {fileID: 2100000, guid: fb3b55c8e04ad134d9fea319ca3fd07b, type: 2}
+  WallMaterial: {fileID: 2100000, guid: 686d1533dfd37624da8c171f3d5753c2, type: 2}
 --- !u!114 &114699935593033952
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -121,3 +152,16 @@ MonoBehaviour:
   matchSize: 4
   isNetworkActive: 0
   matchMaker: {fileID: 0}
+--- !u!114 &114889098484736964
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1535314968474834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db441273d14fa9342aec1b8138c23f5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Blocks: []
+  Size: {x: 16, y: 16}
