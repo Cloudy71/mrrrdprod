@@ -11,9 +11,10 @@ namespace Hackathon
     {
         public static String SQL_SELECT = "SELECT * FROM Character";
         public static String SQL_SELECT_ID = "SELECT * FROM Character WHERE ID=@id";
-        public static String SQL_INSERT = "INSERT INTO Character VALUES (@id, @name, @points, @attack, @health, @PlayerID)";
+        public static String SQL_COUNT = "SELECT COUNT(*) FROM Character";
+        public static String SQL_INSERT = "INSERT INTO Character VALUES (@id, @name, @stamina, @attack, @health, @weapon)";
         public static String SQL_DELETE_ID = "DELETE FROM Character WHERE ID=@id";
-        public static String SQL_UPDATE = "UPDATE Character SET Name=@name, Points=@points, Bonus_Attack=@damage, Cost=@cost, Ammo=@ammo, Accuracy=@accuracy WHERE ID=@id";
+        public static String SQL_UPDATE = "UPDATE Character SET Name=@name, Stamina=@stamina, Bonus_Attack=@attack, Bonus_Health=@health Weapon=@weapon WHERE ID=@id";
 
         /// <summary>
         /// Insert the record.
@@ -140,6 +141,30 @@ namespace Hackathon
             return Character;
         }
 
+        public static int Select_Count(Database pDb = null)
+        {
+            Database db;
+            if (pDb == null)
+            {
+                db = new Database();
+                db.Connect();
+            }
+            else
+            {
+                db = (Database)pDb;
+            }
+
+            SqlCommand command = db.CreateCommand(SQL_COUNT);
+            int count = (int)command.ExecuteScalar();
+
+            if (pDb == null)
+            {
+                db.Close();
+            }
+
+            return count;
+        }
+
         /// <summary>
         /// Delete the record.
         /// </summary>
@@ -175,10 +200,10 @@ namespace Hackathon
         {
             command.Parameters.AddWithValue("@ID", character.ID);
             command.Parameters.AddWithValue("@name", character.Name);
-            command.Parameters.AddWithValue("@points", character.Points);
+            command.Parameters.AddWithValue("@stamina", character.Stamina);
             command.Parameters.AddWithValue("@attack", character.BAttack);
             command.Parameters.AddWithValue("@health", character.BHealth);
-            command.Parameters.AddWithValue("@PlayerID", character.Player_ID);
+            command.Parameters.AddWithValue("@weapon", character.Weapon);
         }
         private static Collection<Character> Read(SqlDataReader reader)
         {
@@ -191,10 +216,10 @@ namespace Hackathon
 
                 character.ID = reader.GetInt32(++i);
                 character.Name = reader.GetString(++i);
-                character.Points = reader.GetInt32(++i);
+                character.Stamina = reader.GetInt32(++i);
                 character.BAttack = reader.GetInt32(++i);
                 character.BHealth = reader.GetInt32(++i);
-                character.Player_ID = reader.GetInt32(++i);
+                character.Weapon = reader.GetInt32(++i);
 
                 Produkts.Add(character);
             }

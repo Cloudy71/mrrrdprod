@@ -11,6 +11,7 @@ namespace Hackathon
     {
         public static String SQL_SELECT = "SELECT * FROM Player";
         public static String SQL_SELECT_ID = "SELECT * FROM Player WHERE ID=@id";
+        public static String SQL_COUNT = "SELECT COUNT(*) FROM Player";
         public static String SQL_INSERT = "INSERT INTO Player VALUES (@id, @name, @armor, @health, @skore, @InventoryID, @CharacterID)";
         public static String SQL_DELETE_ID = "DELETE FROM Player WHERE ID=@id";
         public static String SQL_UPDATE = "UPDATE Player SET Name=@name, Armor=@armor, Health=@health, Skore=@skore, Inventory_ID=@InventoryID, Character_ID=@CharacterID  WHERE ID=@id";
@@ -138,6 +139,30 @@ namespace Hackathon
             }
 
             return Player;
+        }
+
+        public static int Select_Count(Database pDb = null)
+        {
+            Database db;
+            if (pDb == null)
+            {
+                db = new Database();
+                db.Connect();
+            }
+            else
+            {
+                db = (Database)pDb;
+            }
+
+            SqlCommand command = db.CreateCommand(SQL_COUNT);
+            int count = (int)command.ExecuteScalar();
+
+            if (pDb == null)
+            {
+                db.Close();
+            }
+
+            return count;
         }
 
         /// <summary>

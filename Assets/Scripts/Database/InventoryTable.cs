@@ -10,10 +10,11 @@ namespace Hackathon
     class InventoryTable
     {
         public static String SQL_SELECT = "SELECT * FROM Inventory";
+        public static String SQL_COUNT = "SELECT COUNT(*) FROM Inventory";
         public static String SQL_SELECT_ID = "SELECT * FROM Inventory WHERE ID=@id";
-        public static String SQL_INSERT = "INSERT INTO Inventory VALUES (@current, @PlayerID, @WeaponID)";
+        public static String SQL_INSERT = "INSERT INTO Inventory VALUES (@current, @PlayerID, @WeaponID, @slot)";
         public static String SQL_DELETE_ID = "DELETE FROM Inventory WHERE ID=@id";
-        public static String SQL_UPDATE = "UPDATE Inventory SET Current=@current, Player_ID=@PlayerID, Weapon_ID=@WeaponID WHERE ID=@id";
+        public static String SQL_UPDATE = "UPDATE Inventory SET Current=@current, Player_ID=@PlayerID, Weapon_ID=@WeaponID, Slot=@slot WHERE ID=@id";
 
         /// <summary>
         /// Insert the record.
@@ -139,6 +140,29 @@ namespace Hackathon
 
             return Inventory;
         }
+        public static int Select_Count(Database pDb = null)
+        {
+            Database db;
+            if (pDb == null)
+            {
+                db = new Database();
+                db.Connect();
+            }
+            else
+            {
+                db = (Database)pDb;
+            }
+
+            SqlCommand command = db.CreateCommand(SQL_COUNT);
+            int count = (int)command.ExecuteScalar();
+
+            if (pDb == null)
+            {
+                db.Close();
+            }
+
+            return count;
+        }
 
         /// <summary>
         /// Delete the record.
@@ -176,6 +200,7 @@ namespace Hackathon
             command.Parameters.AddWithValue("@current", inventory.Current);
             command.Parameters.AddWithValue("@PlayerID", inventory.Player_ID);
             command.Parameters.AddWithValue("@WeaponID", inventory.Weapon_ID);
+            command.Parameters.AddWithValue("@slot", inventory.Slot);
         }
         private static Collection<Inventory> Read(SqlDataReader reader)
         {
@@ -189,6 +214,7 @@ namespace Hackathon
                 inventory.Current = reader.GetInt32(++i);
                 inventory.Player_ID = reader.GetInt32(++i);
                 inventory.Weapon_ID = reader.GetInt32(++i);
+                inventory.Slot = reader.GetInt32(++i);
 
                 Produkts.Add(inventory);
             }

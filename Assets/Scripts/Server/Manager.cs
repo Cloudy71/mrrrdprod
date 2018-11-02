@@ -20,6 +20,9 @@ public class Manager : NetworkManager {
     public override void OnStartServer()
     {
         base.OnStartServer();
+        {
+
+        }
 
         // db věci..
     }
