@@ -9,6 +9,7 @@ namespace Hackathon
 
     public class PlayerRefill : NetworkBehaviour
     {
+        [SyncVar] string message;
 
         // Use this for initialization
         void Start()
@@ -23,9 +24,8 @@ namespace Hackathon
         }
 
         [Command]
-        public string CmdRefill(int id)
+        public void CmdRefill(int id)
         {
-            string message = "";
             Player player = PlayerTable.Select(id);
             System.Random rnd = new System.Random();
             int rnum = rnd.Next(0, 100);
@@ -34,14 +34,14 @@ namespace Hackathon
                 Character ch = CharacterTable.Select(player.CharacterID);
                 player.Health = ch.BHealth + Constants.player_basehealth;
                 PlayerTable.Update(player);
-                message = "Health";
+                this.message = "Health";
             }
             else if(rnum > 33 && rnum <= 66)//ammo
             {
                 Inventory i = InventoryTable.Select(player.InventoryID);
                 i.Current = WeaponTable.Select(i.Weapon_ID).Ammo;
                 InventoryTable.Update(i);
-                message = "Ammo";
+                this.message = "Ammo";
             }
             else //Weapon
             {
@@ -71,9 +71,8 @@ namespace Hackathon
                 i.Current = notowned[WeaponID].Ammo;
                 i.Slot = InventoryTable.Select_Count() + 1;
                 InventoryTable.Insert(i);
-                message = notowned[WeaponID].Name;
+                this.message = notowned[WeaponID].Name;
             }
-            return message;
             
         }
     }

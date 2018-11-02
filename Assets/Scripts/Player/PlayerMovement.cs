@@ -1,8 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Networking;
 
-public class PlayerMovement : MonoBehaviour {
+public class PlayerMovement : NetworkBehaviour {
 
 	// Use this for initialization
 	void Start () {
@@ -13,4 +14,7 @@ public class PlayerMovement : MonoBehaviour {
 	void Update () {
 		
 	}
-}
+    [Command]
+    public string CmdRefill(int id)
+    {
+    }
