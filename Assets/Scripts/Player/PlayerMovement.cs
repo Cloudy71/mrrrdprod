@@ -4,17 +4,11 @@ using UnityEngine;
 using UnityEngine.Networking;
 
 public class PlayerMovement : NetworkBehaviour {
-
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
-    [Command]
-    public string CmdRefill(int id)
-    {
+    // Use this for initialization
+    void Start() {
     }
+
+    // Update is called once per frame
+    void Update() {
+    }
+}
