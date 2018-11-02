@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4059514606984680}
   - component: {fileID: 33079260427323534}
   - component: {fileID: 23593959296889666}
+  - component: {fileID: 114048867298276420}
   m_Layer: 0
   m_Name: hexagon
   m_TagString: Untagged
@@ -83,3 +84,20 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1288450262120090}
   m_Mesh: {fileID: 4300000, guid: 4481792a2f3910144b96ba60261903ef, type: 3}
+--- !u!114 &114048867298276420
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1288450262120090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 0
+  outlineColor: {r: 0, g: 0, b: 0, a: 1}
+  outlineWidth: 2
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
