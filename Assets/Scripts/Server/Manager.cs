@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Networking;
 
-public class PlayerData : NetworkBehaviour {
-    [SyncVar] public int Health;
+public class Manager : NetworkManager {
+
 
 
 	// Use this for initialization
@@ -16,4 +16,11 @@ public class PlayerData : NetworkBehaviour {
 	void Update () {
 		
 	}
+
+    public override void OnStartServer()
+    {
+        base.OnStartServer();
+
+        // db věci..
+    }
 }

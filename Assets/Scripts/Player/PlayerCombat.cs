@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Networking;
 
-public class PlayerData : NetworkBehaviour {
-    [SyncVar] public int Health;
-
-
+public class PlayerCombat : NetworkBehaviour {
+    [SyncVar]
+    public int Damage;
+    
 	// Use this for initialization
 	void Start () {
 		
@@ -14,6 +14,12 @@ public class PlayerData : NetworkBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+        CmdFire();
 	}
+
+    [Command]
+    public void CmdFire()
+    {
+
+    }
 }
