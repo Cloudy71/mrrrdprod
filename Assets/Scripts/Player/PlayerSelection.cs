@@ -19,7 +19,7 @@ namespace Hackathon
 
         }
 
-        //[Command]
+        [Command]
         public void CmdCharacterSelection(string name, int ID)
         {
             Player player = new Player();
