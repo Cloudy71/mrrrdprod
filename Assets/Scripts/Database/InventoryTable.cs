@@ -11,10 +11,10 @@ namespace Hackathon
     {
         public static String SQL_SELECT = "SELECT * FROM Inventory";
         public static String SQL_COUNT = "SELECT COUNT(*) FROM Inventory";
-        public static String SQL_SELECT_ID = "SELECT * FROM Inventory WHERE ID=@id";
+        public static String SQL_SELECT_ID = "SELECT * FROM Inventory WHERE Slot=@slot";
         public static String SQL_INSERT = "INSERT INTO Inventory VALUES (@current, @PlayerID, @WeaponID, @slot)";
         public static String SQL_DELETE_ID = "DELETE FROM Inventory WHERE ID=@id";
-        public static String SQL_UPDATE = "UPDATE Inventory SET Current=@current, Player_ID=@PlayerID, Weapon_ID=@WeaponID, Slot=@slot WHERE ID=@id";
+        public static String SQL_UPDATE = "UPDATE Inventory SET Current=@current, Player_ID=@PlayerID, Weapon_ID=@WeaponID, Slot=@slot WHERE Slot=@slot";
 
         /// <summary>
         /// Insert the record.
