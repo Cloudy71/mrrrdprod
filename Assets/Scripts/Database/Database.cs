@@ -42,7 +42,7 @@ namespace Hackathon
             bool ret = true;
             if (Connection.State != System.Data.ConnectionState.Open)
             {
-                ret = Connect(ConfigurationManager.ConnectionStrings["ConnectionString"].ConnectionString);
+                ret = Connect("Data Source=nl1-wsq1.a2hosting.com;Persist Security Info=True;User ID=gameswho_hackathon;Password=uR20sn5@hacka");
             }
             return ret;
         }
