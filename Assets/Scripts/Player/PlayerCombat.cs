@@ -7,6 +7,7 @@ namespace Hackathon
 {
     public class PlayerCombat : NetworkBehaviour
     {
+        public string Message;
         
         private
             Player Attacker;
@@ -31,43 +32,56 @@ namespace Hackathon
             this.Defender = PlayerTable.Select(defender_id);
             this.Defender = PlayerTable.Select(Defender.CharacterID);
 
-
-            int Damage = CountFireDamage();
-            if (Damage > 0)
-            {
-                LifeLoss(Damage);
-                message =  System.Convert.ToString(Damage);
-            }
+            bool EnoughStamina;
+            int Damage = CountFireDamage(AttackerCharacter.Stamina, out EnoughStamina);
+            if (EnoughStamina)
+                if (Damage > 0)
+                {
+                    LifeLoss(Damage);
+                    this.Message = System.Convert.ToString(Damage);
+                }
+                else
+                    this.Message = "miss";
             else
-                message = "miss";
-            
-
+                this.Message = "influcient action points";
+           
         }
         /*
          *  Výpočet dmg
          *  Odečtení náboje 
+         *  odečtení actionpointů
+         *  
+         *  vrací dmg + out parametr dává najevo, jestli je dost staminy
          */
-        private int CountFireDamage()
+        private int CountFireDamage(int ActionPoints, out bool EnoughStamina)
         {
-            int Accuracy = this.Weapon.Accuracy;
-            int RawDamage = this.Weapon.Damage;
-
-            this.AttackerInventory.Current--;
-            InventoryTable.Update(AttackerInventory);
-
-            System.Random r = new System.Random();
-            int RandAcc = r.Next(0,100);
-
-            if (RandAcc > Accuracy)
+            if (ActionPoints >= this.Weapon.Cost)
             {
-                return 0;
+                EnoughStamina = true;
+                int Accuracy = this.Weapon.Accuracy;
+                int RawDamage = this.Weapon.Damage;
+
+                this.AttackerInventory.Current--;
+                InventoryTable.Update(AttackerInventory);
+
+                ActionPoints -= this.Weapon.Cost;
+                System.Random r = new System.Random();
+                int RandAcc = r.Next(0, 100);
+
+                if (RandAcc > Accuracy)
+                {
+                    return 0;
+                }
+                else
+                {
+                    System.Random DamageOnRange = new System.Random();
+                    int Damage = DamageOnRange.Next(System.Convert.ToInt32(RawDamage * 0.85), RawDamage);
+                    return Damage;
+                }
             }
-            else
-            {
-                System.Random DamageOnRange = new System.Random();
-                int Damage = DamageOnRange.Next(System.Convert.ToInt32(RawDamage * 0.85), RawDamage);
-                return Damage;
-            }
+            EnoughStamina = false;
+            return 0;
+
         }
 
         /*
