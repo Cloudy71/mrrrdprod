@@ -6,7 +6,7 @@ namespace Hackathon
 
     public class Constants
     {
-        public readonly int player_basehealth = 100; 
+        public static readonly int player_basehealth = 100; 
         
     }
 }
