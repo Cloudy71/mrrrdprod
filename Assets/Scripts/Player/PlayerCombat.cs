@@ -7,7 +7,7 @@ namespace Hackathon
 {
     public class PlayerCombat : NetworkBehaviour
     {
-        [SyncVar]
+        
         private
             Player Attacker;
             Character AttackerCharacter;
@@ -16,9 +16,12 @@ namespace Hackathon
 
             Player Defender;
             Character DefenderCharacter;
-        
+
+        [SyncVar]
+        public string message;
+
         [Command]
-        public string CmdPlayerCombat(int attacker_id, int defender_id)
+        public void CmdPlayerCombat(int attacker_id, int defender_id)
         {
             this.Attacker = PlayerTable.Select(attacker_id);
             this.AttackerCharacter = CharacterTable.Select(Attacker.CharacterID);        
@@ -33,10 +36,10 @@ namespace Hackathon
             if (Damage > 0)
             {
                 LifeLoss(Damage);
-                return System.Convert.ToString(Damage);
+                message =  System.Convert.ToString(Damage);
             }
             else
-                return "miss";
+                message = "miss";
             
 
         }
