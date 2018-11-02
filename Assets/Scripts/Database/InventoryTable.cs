@@ -4,7 +4,6 @@ using System.Collections.ObjectModel;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace Hackathon
 {
@@ -14,7 +13,7 @@ namespace Hackathon
         public static String SQL_SELECT_ID = "SELECT * FROM Inventory WHERE ID=@id";
         public static String SQL_INSERT = "INSERT INTO Inventory VALUES (@current, @PlayerID, @WeaponID)";
         public static String SQL_DELETE_ID = "DELETE FROM Inventory WHERE ID=@id";
-        public static String SQL_UPDATE = "UPDATE Inventory SET Current=@current, Player_ID=@PlayerID, Weapon_ID=@damage, Cost=@cost, Ammo=@ammo, Accuracy=@accuracy WHERE ID=@id";
+        public static String SQL_UPDATE = "UPDATE Inventory SET Current=@current, Player_ID=@PlayerID, Weapon_ID=@WeaponID WHERE ID=@id";
 
         /// <summary>
         /// Insert the record.
@@ -174,13 +173,9 @@ namespace Hackathon
         /// </summary>
         private static void PrepareCommand(SqlCommand command, Inventory inventory)
         {
-            command.Parameters.AddWithValue("@ID", inventory.ID);
-            command.Parameters.AddWithValue("@name", inventory.Name);
-            command.Parameters.AddWithValue("@range", inventory.Range);
-            command.Parameters.AddWithValue("@damage", inventory.Damage);
-            command.Parameters.AddWithValue("@cost", inventory.Cost);
-            command.Parameters.AddWithValue("@ammo", inventory.Ammo);
-            command.Parameters.AddWithValue("@accuracy", inventory.Accuracy);
+            command.Parameters.AddWithValue("@current", inventory.Current);
+            command.Parameters.AddWithValue("@PlayerID", inventory.Player_ID);
+            command.Parameters.AddWithValue("@WeaponID", inventory.Weapon_ID);
         }
         private static Collection<Inventory> Read(SqlDataReader reader)
         {
@@ -191,13 +186,9 @@ namespace Hackathon
                 int i = -1;
                 Inventory inventory = new Inventory();
 
-                inventory.ID = reader.GetInt32(++i);
-                inventory.Name = reader.GetString(++i);
-                inventory.Range = reader.GetInt32(++i);
-                inventory.Damage = reader.GetInt32(++i);
-                inventory.Cost = reader.GetInt32(++i);
-                inventory.Ammo = reader.GetInt32(++i);
-                inventory.Accuracy = reader.GetInt32(++i);
+                inventory.Current = reader.GetInt32(++i);
+                inventory.Player_ID = reader.GetInt32(++i);
+                inventory.Weapon_ID = reader.GetInt32(++i);
 
                 Produkts.Add(inventory);
             }

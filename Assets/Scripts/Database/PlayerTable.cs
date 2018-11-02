@@ -4,7 +4,6 @@ using System.Collections.ObjectModel;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace Hackathon
 {
@@ -12,9 +11,9 @@ namespace Hackathon
     {
         public static String SQL_SELECT = "SELECT * FROM Player";
         public static String SQL_SELECT_ID = "SELECT * FROM Player WHERE ID=@id";
-        public static String SQL_INSERT = "INSERT INTO Player VALUES (@id, @name, @armor, @health, @skore)";
+        public static String SQL_INSERT = "INSERT INTO Player VALUES (@id, @name, @armor, @health, @skore, @InventoryID, @CharacterID)";
         public static String SQL_DELETE_ID = "DELETE FROM Player WHERE ID=@id";
-        public static String SQL_UPDATE = "UPDATE Player SET Name=@name, Armor=@armor, Health=@health, Skore=@skore WHERE ID=@id";
+        public static String SQL_UPDATE = "UPDATE Player SET Name=@name, Armor=@armor, Health=@health, Skore=@skore, Inventory_ID=@InventoryID, Character_ID=@CharacterID  WHERE ID=@id";
 
         /// <summary>
         /// Insert the record.
@@ -179,6 +178,8 @@ namespace Hackathon
             command.Parameters.AddWithValue("@armor", player.Armor);
             command.Parameters.AddWithValue("@health", player.Health);
             command.Parameters.AddWithValue("@skore", player.Score);
+            command.Parameters.AddWithValue("@InventoryID", player.InventoryID);
+            command.Parameters.AddWithValue("@CharacterID", player.CharacterID);
         }
         private static Collection<Player> Read(SqlDataReader reader)
         {
@@ -194,6 +195,8 @@ namespace Hackathon
                 player.Armor = reader.GetInt32(++i);
                 player.Health = reader.GetInt32(++i);
                 player.Score = reader.GetInt32(++i);
+                player.InventoryID = reader.GetInt32(++i);
+                player.CharacterID = reader.GetInt32(++i);
 
                 Produkts.Add(player);
             }
