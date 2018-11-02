@@ -7,9 +7,17 @@ namespace Hackathon
 {
     public class PlayerCombat : NetworkBehaviour
     {
+
+        public static GameObject LocalPlayer;
+        void Start()
+        {
+            if (isLocalPlayer)
+                LocalPlayer = this.gameObject;
+        }
+
         [SyncVar]
         public string Message;
-        public int Dmg, Accuracy, ActionPointLoss, BaseHeal, BaseArmor, BaseActPoint, CurrHeal, CurrArmor, CurrActionPoint;
+        public static int Dmg, Accuracy, ActionPointLoss, BaseHeal, BaseArmor, BaseActPoint, CurrHeal, CurrArmor, CurrActionPoint;
         private
             Player Attacker;
             Character AttackerCharacter;
@@ -17,7 +25,6 @@ namespace Hackathon
             Weapon Weapon;
 
             Player Defender;
-            Character DefenderCharacter;
 
 
         [Command]
@@ -29,7 +36,6 @@ namespace Hackathon
             this.Weapon = WeaponTable.Select(this.AttackerInventory.Weapon_ID);
 
             this.Defender = PlayerTable.Select(defender_id);
-            this.Defender = PlayerTable.Select(this.Defender.CharacterID);
 
             bool EnoughStamina;
             int Damage = CountFireDamage(out EnoughStamina);
@@ -51,23 +57,29 @@ namespace Hackathon
          *  
          *  vrací dmg + out parametr dává najevo, jestli je dost staminy
          */
+
+        public static void DoPlayerCombat(int attacker_id, int defender_id)
+        {
+            LocalPlayer.GetComponent<PlayerCombat>().CmdPlayerCombat(attacker_id, defender_id);
+        }
+
         private int CountFireDamage(out bool EnoughStamina)
         {
-            this.ActionPointLoss = this.Weapon.Cost; // pro vypis
-            this.BaseActPoint = this.AttackerCharacter.Stamina; // pro vypis
+            PlayerCombat.ActionPointLoss = this.Weapon.Cost; // pro vypis
+            PlayerCombat.BaseActPoint = this.AttackerCharacter.Stamina; // pro vypis
 
             if (this.AttackerCharacter.Stamina >= this.Weapon.Cost)
             {
                 EnoughStamina = true;
                 int Accuracy = this.Weapon.Accuracy;
-                this.Accuracy = Accuracy; // pro vypis
+                PlayerCombat.Accuracy = Accuracy; // pro vypis
                 int RawDamage = this.Weapon.Damage;
 
-                this.AttackerInventory.Current--;
+                this.AttackerInventory.Actual--;
                 InventoryTable.Update(AttackerInventory);
 
                 this.AttackerCharacter.Stamina -= this.Weapon.Cost;
-                this.CurrActionPoint = this.AttackerCharacter.Stamina; // pro vypis
+                PlayerCombat.CurrActionPoint = this.AttackerCharacter.Stamina; // pro vypis
                 System.Random r = new System.Random();
                 int RandAcc = r.Next(0, 100);
 
@@ -79,7 +91,7 @@ namespace Hackathon
                 {
                     System.Random DamageOnRange = new System.Random();
                     int Damage = DamageOnRange.Next(System.Convert.ToInt32(RawDamage * 0.85), RawDamage);
-                    this.Dmg = Damage; // pro vypis
+                    PlayerCombat.Dmg = Damage; // pro vypis
                     return Damage;
                 }
             }
@@ -93,8 +105,8 @@ namespace Hackathon
          */
         private void LifeLoss(int Damage)
         {
-            this.BaseArmor = this.Defender.Armor;
-            this.BaseHeal = this.Defender.Health;
+            PlayerCombat.BaseArmor = this.Defender.Armor;
+            PlayerCombat.BaseHeal = this.Defender.Health;
 
             int DamageOverLimit = 0;
             if (this.Defender.Armor > 0)
@@ -112,8 +124,8 @@ namespace Hackathon
             this.Defender.Health -= DamageOverLimit;
             PlayerTable.Update(this.Defender);
 
-            this.CurrArmor = this.Defender.Armor;
-            this.CurrHeal = this.Defender.Health;
+            PlayerCombat.CurrArmor = this.Defender.Armor;
+            PlayerCombat.CurrHeal = this.Defender.Health;
         }
 
     

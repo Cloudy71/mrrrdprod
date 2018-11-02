@@ -22,8 +22,6 @@ public class Manager : NetworkManager {
         {
 
         }
-        string comm;
-        Hackathon.QA_class.Create(out comm);
-        Debug.Log(comm);
+        
     }
 }

@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine;
 
 namespace Hackathon
 {
@@ -8,49 +9,49 @@ namespace Hackathon
 
         public static void Create(out string TestResult)
         {
-            string comment = "Přidáno:";
+            string comment = "Přidáno: \n";
+
             try
             {
                 comment += Test_CreateWapon();
             }
-            catch (System.Exception e)
+            catch
             {
-                comment += "Zbraňe se nevytvořily";
-                throw e;
+                comment += "Zbraně se nevytvořily";
             }
-
             try
             {
                 comment += Test_CreateCharacters();
             }
-            catch (System.Exception e)
+            catch
             {
                 comment += "Charactery se nevytvořily";
-                throw e;
             }
-
+            comment += "\n ==================================== \n Vytvoření 2 hráčů \n ==================================== \n";
             try
             {
                 comment += Test_CreatePlayers();
             }
-            catch (System.Exception e)
+            catch
             {
                 comment += "Hráči se nevytvořili";
-                throw e;
             }
-
+            comment += "\n ==================================== \n Test combat systemu \n ==================================== \n";
             try
             {
                 comment += Test_PlayerCombat();
             }
-            catch (System.Exception e)
+            catch
             {
                 comment += "Nedošlo k souboji";
-                throw e;
             }
+            comment += "\n ===================================== \n";
             TestResult = comment;
+
         }
 
+
+        //volají se pak
         static string Test_CreateWapon()
         {
             WeaponsFiller.Create();
@@ -63,27 +64,33 @@ namespace Hackathon
         }
         static string Test_CreatePlayers()
         {
-            PlayerSelection PS = new PlayerSelection();
-            PS.CmdCharacterSelection("prvni", 1);
-            PS.CmdCharacterSelection("druhy", 2);
-            return  "Vytvoření 2 hráčů \n";
+            string name1, name2;
+            name1 = "prvni";
+            name2 = "druhy";
+            PlayerSelection.CharacterSelection(name1, 1);
+            PlayerSelection.CharacterSelection(name2, 2);
+            string comment = "Hráč1: "
+                           + name1
+                           + "\n Hráč2: " 
+                           + name2 + "\n ==================================== \n";
+            return comment;
         }
         static string Test_PlayerCombat()
         {
             // CurrHeal, CurrArmor, CurrActionPoint;
-            PlayerCombat PC = new PlayerCombat();
-            PC.CmdPlayerCombat(1,2);
-            return 
-                "Test combat systemu \n"
-                + "DMG: " + PC.Dmg + "\n"
-                + "Accuracy: " + PC.Accuracy + "\n"
-                + "ActionPointLoss: " + PC.ActionPointLoss + "\n"
-                + "BaseHealth: " + PC.BaseHeal + "\n"
-                + "BaseArmor: " + PC.BaseArmor + "\n"
-                + "BaseActionPoint: " + PC.BaseActPoint + "\n"
-                + "CurrHealth :" + PC.BaseHeal + "\n"
-                + "CurrArmor: " + PC.CurrArmor + "\n"
-                + "CurrActionPoint: " + PC.CurrActionPoint + "\n"
+            PlayerCombat.DoPlayerCombat(1,2);
+            return
+               
+                "DMG: " + PlayerCombat.Dmg + "\n"
+                + "Accuracy: " + PlayerCombat.Accuracy + "\n"
+                + "ActionPointLoss: " + PlayerCombat.ActionPointLoss + "\n"
+                + "BaseHealth: " + PlayerCombat.BaseHeal + "\n"
+                + "BaseArmor: " + PlayerCombat.BaseArmor + "\n"
+                + "BaseActionPoint: " + PlayerCombat.BaseActPoint + "\n"
+                + "CurrHealth :" + PlayerCombat.BaseHeal + "\n"
+                + "CurrArmor: " + PlayerCombat.CurrArmor + "\n"
+                + "CurrActionPoint: " + PlayerCombat.CurrActionPoint + "\n"
+               
                 ;
         }
     }

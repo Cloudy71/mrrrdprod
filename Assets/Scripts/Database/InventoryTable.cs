@@ -12,9 +12,9 @@ namespace Hackathon
         public static String SQL_SELECT = "SELECT * FROM Inventory";
         public static String SQL_COUNT = "SELECT COUNT(*) FROM Inventory";
         public static String SQL_SELECT_ID = "SELECT * FROM Inventory WHERE Slot=@slot";
-        public static String SQL_INSERT = "INSERT INTO Inventory VALUES (@current, @PlayerID, @WeaponID, @slot)";
+        public static String SQL_INSERT = "INSERT INTO Inventory VALUES (@actual, @PlayerID, @WeaponID, @slot)";
         public static String SQL_DELETE_ID = "DELETE FROM Inventory WHERE ID=@id";
-        public static String SQL_UPDATE = "UPDATE Inventory SET Current=@current, Player_ID=@PlayerID, Weapon_ID=@WeaponID, Slot=@slot WHERE Slot=@slot";
+        public static String SQL_UPDATE = "UPDATE Inventory SET Actual=@actual, Player_ID=@PlayerID, Weapon_ID=@WeaponID, Slot=@slot WHERE Slot=@slot";
 
         /// <summary>
         /// Insert the record.
@@ -122,7 +122,7 @@ namespace Hackathon
 
             SqlCommand command = db.CreateCommand(SQL_SELECT_ID);
 
-            command.Parameters.AddWithValue("@id", id);
+            command.Parameters.AddWithValue("@slot", id);
             SqlDataReader reader = db.Select(command);
 
             Collection<Inventory> Produkts = Read(reader);
@@ -181,7 +181,7 @@ namespace Hackathon
             }
             SqlCommand command = db.CreateCommand(SQL_DELETE_ID);
 
-            command.Parameters.AddWithValue("@id", id);
+            command.Parameters.AddWithValue("@slot", id);
             int ret = db.ExecuteNonQuery(command);
 
             if (pDb == null)
@@ -197,7 +197,7 @@ namespace Hackathon
         /// </summary>
         private static void PrepareCommand(SqlCommand command, Inventory inventory)
         {
-            command.Parameters.AddWithValue("@current", inventory.Current);
+            command.Parameters.AddWithValue("@actual", inventory.Actual);
             command.Parameters.AddWithValue("@PlayerID", inventory.Player_ID);
             command.Parameters.AddWithValue("@WeaponID", inventory.Weapon_ID);
             command.Parameters.AddWithValue("@slot", inventory.Slot);
@@ -211,7 +211,7 @@ namespace Hackathon
                 int i = -1;
                 Inventory inventory = new Inventory();
 
-                inventory.Current = reader.GetInt32(++i);
+                inventory.Actual = reader.GetInt32(++i);
                 inventory.Player_ID = reader.GetInt32(++i);
                 inventory.Weapon_ID = reader.GetInt32(++i);
                 inventory.Slot = reader.GetInt32(++i);

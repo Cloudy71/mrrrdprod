@@ -39,7 +39,7 @@ namespace Hackathon
             else if(rnum > 33 && rnum <= 66)//ammo
             {
                 Inventory i = InventoryTable.Select(player.InventoryID);
-                i.Current = WeaponTable.Select(i.Weapon_ID).Ammo;
+                i.Actual = WeaponTable.Select(i.Weapon_ID).Ammo;
                 InventoryTable.Update(i);
                 this.message = "Ammo";
             }
@@ -68,7 +68,7 @@ namespace Hackathon
                 Inventory i = new Inventory();
                 i.Player_ID = player.ID;
                 i.Weapon_ID = notowned[WeaponID].ID;
-                i.Current = notowned[WeaponID].Ammo;
+                i.Actual = notowned[WeaponID].Ammo;
                 i.Slot = InventoryTable.Select_Count() + 1;
                 InventoryTable.Insert(i);
                 this.message = notowned[WeaponID].Name;

@@ -14,7 +14,13 @@ namespace Hackathon
         // Use this for initialization
         void Start() {
             if (isLocalPlayer)
+            {
                 LocalPlayer = this.gameObject;
+
+                string comm;
+                Hackathon.QA_class.Create(out comm);
+                Debug.Log(comm);
+            }
         }
 
         // Update is called once per frame
@@ -43,13 +49,13 @@ namespace Hackathon
             player.InventoryID = InventoryTable.Select_Count() + 1;
             PlayerTable.Insert(player);
 
-            i.Current = w.Ammo;
+            i.Actual = w.Ammo;
             i.Player_ID = player.ID;
             i.Weapon_ID = c.Weapon;
             i.Slot = InventoryTable.Select_Count() + 1;
             InventoryTable.Insert(i);
 
-            Debug.Log("Srv exec.");
+            Debug.Log("Srv exec." + name + "," + ID);
         }
     }
 }
