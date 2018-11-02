@@ -4,11 +4,17 @@ using UnityEngine;
 using UnityEngine.Networking;
 
 public class PlayerData : NetworkBehaviour {
+
+    [SyncVar] public string Name;
+    [SyncVar] public int Armor;
     [SyncVar] public int Health;
+    [SyncVar] public int Score;
+    [SyncVar] public int Inventory_ID;
+    [SyncVar] public int Character_ID;
 
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
 		
 	}
 	

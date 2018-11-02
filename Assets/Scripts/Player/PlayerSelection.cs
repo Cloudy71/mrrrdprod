@@ -19,7 +19,7 @@ namespace Hackathon
 
         }
 
-        //[Command]
+        [Command]
         public void CmdCharacterSelection(string name, int ID)
         {
             Player player = new Player();
@@ -41,10 +41,6 @@ namespace Hackathon
             i.Weapon_ID = c.Weapon;
             i.Slot = 1;
             InventoryTable.Insert(i);
-
-
-
-
         }
     }
 }
