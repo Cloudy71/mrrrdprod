@@ -20,10 +20,14 @@ public class CameraMovement : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
+        if (!Manager.MANAGER.GetComponent<Manager>().isNetworkActive || Map.MAP == null) {
+            return;
+        }
+
         if (_map == null) {
             _map = Map.MAP.GetComponent<Map>();
         }
-        
+
         if (Input.GetMouseButtonDown(1)) {
             _dragStart = Input.mousePosition;
             _dragPosition = Position;

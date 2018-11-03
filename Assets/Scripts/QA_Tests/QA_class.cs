@@ -71,8 +71,8 @@ namespace Hackathon
 
             try
             {
-                Test_StatReport(1);
-                Test_StatReport(2);
+                /*Test_StatReport(1);
+                Test_StatReport(2);*/
             }
             catch
             {
@@ -145,12 +145,12 @@ namespace Hackathon
             return "získaný item: " + PlayerRefill.ObtainedItem;
         }
 
-        static string Test_StatReport(int id)
+        /*static string Test_StatReport(int id)
         {
             int HP, Stamina;
             string Weapon;
-            PlayerStatReport.DoPlayerStatRep(id, out HP, out Stamina, out Weapon);
+            //PlayerStatReport.DoPlayerStatRep(id, out HP, out Stamina, out Weapon);
             return "Hrac: " + id + " HP: " + HP + " SP: " + Stamina + " Weapon: " + Weapon;
-        }
+        }*/
     }
 }

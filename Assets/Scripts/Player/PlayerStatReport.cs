@@ -15,7 +15,7 @@ namespace Hackathon
                 LocalPlayer = this.gameObject;
         }
 
-        [Command]
+        /*[Command]
         public void CmdPlayerStatRep(int player_id, out int HP, out int Stamina, out string Weapon)
         {
             Player p = PlayerTable.Select(player_id);
@@ -30,7 +30,7 @@ namespace Hackathon
         public static void DoPlayerStatRep(int Aplayer_id, out int HP, out int Stamina, out string Weapon)
         {
             LocalPlayer.GetComponent<PlayerStatReport>().CmdPlayerStatRep(Aplayer_id, out HP, out Stamina, out Weapon);
-        }
+        }*/
     }
 
 }
