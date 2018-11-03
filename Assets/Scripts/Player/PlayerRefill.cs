@@ -61,14 +61,34 @@ namespace Hackathon
                         notowned.Add(w);
                     }                   
                 }
-                int WeaponID = rnd.Next(0, notowned.Count - 1);
-                Inventory i = new Inventory();
-                i.Player_ID = player.ID;
-                i.Weapon_ID = notowned[WeaponID].ID;
-                i.Actual = notowned[WeaponID].Ammo;
-                i.Slot = InventoryTable.Select_Count() + 1;
-                InventoryTable.Insert(i);
-                this.message = notowned[WeaponID].Name;
+                if (notowned.Count == 0) //pokud uz vlastnim vše
+                {
+                    if (rnd.Next(0, 1) == 0)
+                    {
+                        Character ch = CharacterTable.Select(player.CharacterID);
+                        player.Health = ch.BHealth + Constants.player_basehealth;
+                        PlayerTable.Update(player);
+                        this.message = "Health";
+                    }
+                    else
+                    {
+                        Inventory i = InventoryTable.Select(player.InventoryID);
+                        i.Actual = WeaponTable.Select(i.Weapon_ID).Ammo;
+                        InventoryTable.Update(i);
+                        this.message = "Ammo";
+                    }
+                }
+                else
+                {
+                    int WeaponID = rnd.Next(0, notowned.Count - 1);
+                    Inventory i = new Inventory();
+                    i.Player_ID = player.ID;
+                    i.Weapon_ID = notowned[WeaponID].ID;
+                    i.Actual = notowned[WeaponID].Ammo;
+                    i.Slot = InventoryTable.Select_Count() + 1;
+                    InventoryTable.Insert(i);
+                    this.message = notowned[WeaponID].Name;
+                }
             }
             PlayerRefill.ObtainedItem = this.message;  
         }

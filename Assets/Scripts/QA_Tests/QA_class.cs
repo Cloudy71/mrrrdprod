@@ -61,9 +61,8 @@ namespace Hackathon
             Comment.Add("=====================================");
             try
             {
-                for (uint i = 0; i < 10; i++)
+                for (uint i = 0; i < 100; i++)
                     Comment.Add(Test_refill(1));
-
             }
             catch
             {

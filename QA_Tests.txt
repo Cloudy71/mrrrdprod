@@ -12,17 +12,107 @@ Hráč1: prvni
  ====================================
 CombatSystem
 =====================================
-DMG: 64 | Accuracy: 70 | ActionPointLoss: 8 | BaseHealth: 110 | BaseArmor: 0 | BaseActionPoint: 10 | CurrHealth :110 | CurrArmor: 0 | CurrActionPoint: 2 | 
+DMG: 63 | Accuracy: 70 | ActionPointLoss: 8 | BaseHealth: 110 | BaseArmor: 0 | BaseActionPoint: 10 | CurrHealth :110 | CurrArmor: 0 | CurrActionPoint: 2 | 
  ====================================
 LootBox
 =====================================
-získaný item: Health | 
-získaný item: Maceta | 
-získaný item: Sniperka | 
-získaný item: Health | 
-získaný item: Health | 
-získaný item: Ammo | 
-získaný item: Ammo | 
-získaný item: Brokovnice | 
-získaný item: Ammo | 
-získaný item: CZ vz. 75 | 
+získaný item: Brokovnice
+získaný item: Maceta
+získaný item: Health
+získaný item: Sniperka
+získaný item: AK-74U
+získaný item: Ammo
+získaný item: Health
+získaný item: CZ vz. 75
+získaný item: Granát
+získaný item: Ammo
+získaný item: Health
+získaný item: Ammo
+získaný item: Health
+získaný item: Health
+získaný item: Health
+získaný item: Ammo
+získaný item: Health
+získaný item: Health
+získaný item: Health
+získaný item: Health
+získaný item: Health
+získaný item: Health
+získaný item: Health
+získaný item: Health
+získaný item: Health
+získaný item: Ammo
+získaný item: Health
+získaný item: Ammo
+získaný item: Health
+získaný item: Health
+získaný item: Ammo
+získaný item: Ammo
+získaný item: Ammo
+získaný item: Health
+získaný item: Health
+získaný item: Health
+získaný item: Ammo
+získaný item: Health
+získaný item: Health
+získaný item: Health
+získaný item: Health
+získaný item: Health
+získaný item: Health
+získaný item: Health
+získaný item: Health
+získaný item: Health
+získaný item: Health
+získaný item: Health
+získaný item: Health
+získaný item: Health
+získaný item: Health
+získaný item: Health
+získaný item: Health
+získaný item: Health
+získaný item: Ammo
+získaný item: Ammo
+získaný item: Health
+získaný item: Health
+získaný item: Ammo
+získaný item: Ammo
+získaný item: Health
+získaný item: Health
+získaný item: Health
+získaný item: Health
+získaný item: Ammo
+získaný item: Health
+získaný item: Ammo
+získaný item: Health
+získaný item: Health
+získaný item: Health
+získaný item: Health
+získaný item: Health
+získaný item: Health
+získaný item: Health
+získaný item: Ammo
+získaný item: Ammo
+získaný item: Health
+získaný item: Health
+získaný item: Health
+získaný item: Health
+získaný item: Health
+získaný item: Health
+získaný item: Health
+získaný item: Ammo
+získaný item: Health
+získaný item: Health
+získaný item: Ammo
+získaný item: Health
+získaný item: Health
+získaný item: Health
+získaný item: Ammo
+získaný item: Ammo
+získaný item: Health
+získaný item: Health
+získaný item: Ammo
+získaný item: Health
+získaný item: Health
+získaný item: Health
+získaný item: Health
+získaný item: Health
