@@ -14,13 +14,16 @@ public class CameraMovement : MonoBehaviour {
 
     // Use this for initialization
     void Start() {
-        _map = Manager.MANAGER.GetComponent<Map>();
         _camera = Camera.main;
         Position = new Vector3(0f, 0f, 0f);
     }
 
     // Update is called once per frame
     void Update() {
+        if (_map == null) {
+            _map = Map.MAP.GetComponent<Map>();
+        }
+        
         if (Input.GetMouseButtonDown(1)) {
             _dragStart = Input.mousePosition;
             _dragPosition = Position;

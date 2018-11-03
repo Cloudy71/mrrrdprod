@@ -1,23 +1,37 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Networking;
 
-public class Map : MonoBehaviour {
+public class Map : NetworkBehaviour {
+    public static GameObject MAP;
+
     [HideInInspector]
-    public List<GameObject> Blocks;
+    public GameObject[] Blocks;
 
-    public Vector2 Size;
+    [SyncVar]
+    public Vector2 Size = Vector2.zero;
+
+    public bool Generated = false;
 
     // Use this for initialization
     void Start() {
+        MAP = gameObject;
     }
 
     // Update is called once per frame
     void Update() {
+        MAP = gameObject;
+
+        if (Size != Vector2.zero && !Generated) {
+            Generated = true;
+            Blocks = new GameObject[(int) (Size.x * Size.y)];
+        }
     }
 
     public GameObject GetBlockOnPosition(Vector2 position) {
         int idx = (int) (position.x * Size.y + position.y);
+        Debug.Log(idx);
         return Blocks[idx];
     }
 
@@ -31,7 +45,7 @@ public class Map : MonoBehaviour {
 
     public Vector2 GetGridPositionByBlock(GameObject block) {
         GameObject obj = null;
-        for (int i = 0; i < Blocks.Count; i++) {
+        for (int i = 0; i < Blocks.Length; i++) {
             if (Blocks[i].Equals(block)) {
                 int x = (int) (i / Size.x);
                 int y = i - (int) (x * Size.x);

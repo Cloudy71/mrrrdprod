@@ -9,10 +9,6 @@ public class MapGenerator : NetworkBehaviour {
     public GameObject HexagonPrefab;
     public int        Width;
     public int        Height;
-    public Material   GroundMaterial;
-    public Material   WallMaterial;
-    public Material   DirtMaterial;
-    public Material   WaterMaterial;
 
     private Map _map;
 
@@ -31,9 +27,11 @@ public class MapGenerator : NetworkBehaviour {
         if (!isServer)
             return;
 
-        _map = Manager.MANAGER.GetComponent<Map>();
+        _map = GetComponent<Map>();
         _map.Size = new Vector2(Width, Height);
-        _map.Blocks = new List<GameObject>();
+        _map.Blocks = new GameObject[Width * Height];
+
+        int id = 0;
 
         int lakes = (Width + Height) / 32;
 
@@ -66,8 +64,8 @@ public class MapGenerator : NetworkBehaviour {
                 bool IsWater = lakeBlocks.Contains(new Vector2(i, j));
 
                 if (i == 0 || i == Width - 1 || j == 0 || j == Height - 1) {
-                    gObject.GetComponent<MeshRenderer>().material = WallMaterial;
                     block.Type = Block.BlockType.Solid;
+                    block.MaterialType = Block.BlockMaterialType.Wall;
                 }
                 else if (IsWater) {
                     /*gObject.GetComponent<MeshRenderer>().material = WaterMaterial;
@@ -77,16 +75,16 @@ public class MapGenerator : NetworkBehaviour {
                     continue;
                 }
                 else if (IsDirt) {
-                    gObject.GetComponent<MeshRenderer>().material = DirtMaterial;
                     block.Type = Block.BlockType.Moveable;
+                    block.MaterialType = Block.BlockMaterialType.Dirt;
                 }
                 else {
-                    gObject.GetComponent<MeshRenderer>().material = GroundMaterial;
                     block.Type = Block.BlockType.Moveable;
+                    block.MaterialType = Block.BlockMaterialType.Ground;
                 }
 
                 left = !left;
-                _map.Blocks.Add(gObject);
+                block.ID = id++;
 
                 NetworkServer.Spawn(gObject);
             }

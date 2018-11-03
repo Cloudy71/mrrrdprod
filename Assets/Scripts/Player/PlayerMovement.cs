@@ -29,16 +29,15 @@ namespace Hackathon {
             }
 
             if (Input.GetMouseButtonDown(0) && !_playerData.IsMoving) {
-                _playerData.MovePosition = Manager.MANAGER.GetComponent<Map>()
-                                                  .GetGridPositionByBlock(Manager
-                                                                          .MANAGER.GetComponent<MapBlockBehaviour>()
-                                                                          .SelectedBlock);
+                _playerData.MovePosition = Map.MAP.GetComponent<Map>()
+                                              .GetGridPositionByBlock(Map.MAP.GetComponent<MapBlockBehaviour>()
+                                                                         .SelectedBlock);
                 _playerData.IsMoving = true;
             }
 
             float step = _playerData.Speed * Time.deltaTime;
             if (_playerData.IsMoving) {
-                GameObject moveBlock = Manager.MANAGER.GetComponent<Map>().GetBlockOnPosition(_playerData.MovePosition);
+                GameObject moveBlock = Map.MAP.GetComponent<Map>().GetBlockOnPosition(_playerData.MovePosition);
                 float distance = Vector3.Distance(_playerData.transform.position, moveBlock.transform.position);
 
 
@@ -58,34 +57,6 @@ namespace Hackathon {
                     }
                 }
             }
-        }
-
-        [Command]
-        public void CmdMovement(int id) {
-            if (_playerData.IsMoving) {
-                Debug.Log("ismoving");
-                GameObject moveBlock = Manager.MANAGER.GetComponent<Map>().GetBlockOnPosition(_playerData.MovePosition);
-                int distance = int.Parse(Vector3.Distance(_playerData.transform.position, moveBlock.transform.position)
-                                                .ToString());
-
-                if (distance > _playerData.CharacterInstance.Stamina) {
-                    this.message = "Too long";
-                    Debug.Log("too long");
-                }
-                else {
-                    Debug.Log("ok");
-                    float step = 1 * Time.deltaTime;
-                    while (_playerData.GridPosition != _playerData.MovePosition) {
-                        Debug.Log("moving");
-                        _playerData.GridPosition =
-                            Vector3.MoveTowards(_playerData.GridPosition, _playerData.MovePosition, step);
-                    }
-
-                    _playerData.IsMoving = false;
-                }
-            }
-
-//            this.transform.position
         }
     }
 }
