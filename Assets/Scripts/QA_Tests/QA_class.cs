@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
 
 namespace Hackathon
@@ -9,47 +10,81 @@ namespace Hackathon
 
         public static void Create(out string TestResult)
         {
-            string comment = "Přidáno: \n";
+            List<string> Comment = new List<string>();
+            Comment.Add("Přidáno: \n");
+
+            CharacterTable.DeleteAll();
+            InventoryTable.DeleteAll();
+            PlayerTable.DeleteAll();
+            WeaponTable.DeleteAll();
 
             try
             {
-                comment += Test_CreateWapon();
+                Comment.Add(Test_CreateWapon());
             }
             catch
             {
-                comment += "Zbraně se nevytvořily";
+                Comment.Add("Zbraně se nevytvořily");
             }
             try
             {
-                comment += Test_CreateCharacters();
+                Comment.Add(Test_CreateCharacters());
             }
             catch
             {
-                comment += "Charactery se nevytvořily";
+                Comment.Add("Charactery se nevytvořily");
             }
-            comment += "\n ==================================== \n Vytvoření 2 hráčů \n ==================================== \n";
+            Comment.Add(" ====================================");
+            Comment.Add("2 hráči");
+            Comment.Add("=====================================");
             try
             {
-                comment += Test_CreatePlayers();
+                Comment.Add(Test_CreatePlayers());
             }
             catch
             {
-                comment += "Hráči se nevytvořili";
+                Comment.Add("Hráči se nevytvořili");
             }
-            comment += "\n ==================================== \n Test combat systemu \n ==================================== \n";
+            Comment.Add(" ====================================");
+            Comment.Add("CombatSystem");
+            Comment.Add("=====================================");
             try
             {
-                comment += Test_PlayerCombat();
+                Comment.Add(Test_PlayerCombat());
             }
             catch
             {
-                comment += "Nedošlo k souboji";
+                Comment.Add("Nedošlo k souboji");
             }
-            comment += "\n ===================================== \n";
+            Comment.Add(" ====================================");
+            Comment.Add("LootBox");
+            Comment.Add("=====================================");
+            try
+            {
+                for (uint i = 0; i < 10; i++)
+                    Comment.Add(Test_refill(1));
+
+            }
+            catch
+            {
+                Comment.Add("Nepadlo nic");
+            }
+
+            var comment = System.String.Join("", Comment.ToArray());
+
             TestResult = comment;
-
+            try
+            {
+                using (StreamWriter writer = new StreamWriter("QA_Tests.txt"))
+                {
+                    foreach (string s in Comment)
+                    {
+                        writer.WriteLine(s);
+                    }
+                }
+            }
+            catch { }
         }
-
 
         //volají se pak
         static string Test_CreateWapon()
@@ -68,11 +103,12 @@ namespace Hackathon
             name1 = "prvni";
             name2 = "druhy";
             PlayerSelection.CharacterSelection(name1, 1);
-            PlayerSelection.CharacterSelection(name2, 2);
             string comment = "Hráč1: "
-                           + name1
-                           + "\n Hráč2: " 
-                           + name2 + "\n ==================================== \n";
+                           + name1 + "\n Zbraň: "
+                           + PlayerSelection.UsedWeapon;
+            PlayerSelection.CharacterSelection(name2, 2);
+            comment += " Hráč2: " 
+                    + name2 + " ";
             return comment;
         }
         static string Test_PlayerCombat()
@@ -81,17 +117,22 @@ namespace Hackathon
             PlayerCombat.DoPlayerCombat(1,2);
             return
                
-                "DMG: " + PlayerCombat.Dmg + "\n"
-                + "Accuracy: " + PlayerCombat.Accuracy + "\n"
-                + "ActionPointLoss: " + PlayerCombat.ActionPointLoss + "\n"
-                + "BaseHealth: " + PlayerCombat.BaseHeal + "\n"
-                + "BaseArmor: " + PlayerCombat.BaseArmor + "\n"
-                + "BaseActionPoint: " + PlayerCombat.BaseActPoint + "\n"
-                + "CurrHealth :" + PlayerCombat.BaseHeal + "\n"
-                + "CurrArmor: " + PlayerCombat.CurrArmor + "\n"
-                + "CurrActionPoint: " + PlayerCombat.CurrActionPoint + "\n"
-               
+                "DMG: " + PlayerCombat.Dmg + " | "
+                + "Accuracy: " + PlayerCombat.Accuracy + " | "
+                + "ActionPointLoss: " + PlayerCombat.ActionPointLoss + " | "
+                + "BaseHealth: " + PlayerCombat.BaseHeal + " | "
+                + "BaseArmor: " + PlayerCombat.BaseArmor + " | "
+                + "BaseActionPoint: " + PlayerCombat.BaseActPoint + " | "
+                + "CurrHealth :" + PlayerCombat.BaseHeal + " | "
+                + "CurrArmor: " + PlayerCombat.CurrArmor + " | "
+                + "CurrActionPoint: " + PlayerCombat.CurrActionPoint + " | "
+
                 ;
+        }
+        static string Test_refill(int id)
+        {
+            PlayerRefill.RunRefill(id);
+            return "získaný item: " + PlayerRefill.ObtainedItem;
         }
     }
 }

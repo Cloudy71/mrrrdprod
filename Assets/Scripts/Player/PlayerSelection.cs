@@ -9,6 +9,7 @@ namespace Hackathon
     public class PlayerSelection : NetworkBehaviour {
 
         public static GameObject LocalPlayer;
+        public static string UsedWeapon;
 
         private PlayerData _playerData;
 
@@ -58,6 +59,8 @@ namespace Hackathon
             i.Weapon_ID = c.Weapon;
             i.Slot = InventoryTable.Select_Count() + 1;
             InventoryTable.Insert(i);
+
+            PlayerSelection.UsedWeapon = w.Name;
 
             Debug.Log("Srv exec." + name + "," + ID);
 

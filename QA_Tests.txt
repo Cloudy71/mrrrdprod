@@ -1,0 +1,28 @@
+Přidáno: 
+
+Zbraně do DBS 
+
+Charactery do DBS 
+
+ ====================================
+2 hráči
+=====================================
+Hráč1: prvni
+ Zbraň: LMG Hráč2: druhy 
+ ====================================
+CombatSystem
+=====================================
+DMG: 64 | Accuracy: 70 | ActionPointLoss: 8 | BaseHealth: 110 | BaseArmor: 0 | BaseActionPoint: 10 | CurrHealth :110 | CurrArmor: 0 | CurrActionPoint: 2 | 
+ ====================================
+LootBox
+=====================================
+získaný item: Health | 
+získaný item: Maceta | 
+získaný item: Sniperka | 
+získaný item: Health | 
+získaný item: Health | 
+získaný item: Ammo | 
+získaný item: Ammo | 
+získaný item: Brokovnice | 
+získaný item: Ammo | 
+získaný item: CZ vz. 75 | 

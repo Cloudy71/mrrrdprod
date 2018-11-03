@@ -9,19 +9,15 @@ namespace Hackathon
 
     public class PlayerRefill : NetworkBehaviour
     {
-        [SyncVar] string message;
-
-        // Use this for initialization
         void Start()
         {
-
+     
         }
 
-        // Update is called once per frame
-        void Update()
-        {
+        [SyncVar] string message;
 
-        }
+        public static string ObtainedItem;
+
 
         [Command]
         public void CmdRefill(int id)
@@ -31,6 +27,7 @@ namespace Hackathon
             int rnum = rnd.Next(0, 100);
             if(rnum >= 0 && rnum <= 33) //healthpack
             {
+               
                 Character ch = CharacterTable.Select(player.CharacterID);
                 player.Health = ch.BHealth + Constants.player_basehealth;
                 PlayerTable.Update(player);
@@ -73,7 +70,12 @@ namespace Hackathon
                 InventoryTable.Insert(i);
                 this.message = notowned[WeaponID].Name;
             }
-            
+            PlayerRefill.ObtainedItem = this.message;  
+        }
+
+        public static void RunRefill(int id)
+        {
+            PlayerSelection.LocalPlayer.GetComponent<PlayerRefill>().CmdRefill(id);
         }
     }
 }

@@ -8,11 +8,13 @@ namespace Hackathon
     {
         public static void Create()
         {                 // NAME      range    DMG    cost    ammo    accuracy
-            CreateWeapon("LMG",         4,      70,     8,      12,    70);
+            CreateWeapon("LMG",         4,      70,     8,      12,     70);
             CreateWeapon("Sniperka",    6,      100,    5,      3,      70);
             CreateWeapon("CZ vz. 75",   3,      70,     2,      3,      90);
+            CreateWeapon("Mačeta",      0,      900,    8,      1000,   30);
             CreateWeapon("Brokovnice",  1,      120,    5,      4,      90);
-            CreateWeapon("AK-74U",      4,      90,     4,      7,     100);     
+            CreateWeapon("AK-74U",      4,      90,     4,      7,      75);
+            CreateWeapon("Granát",      2,      60,     1,      1,     100);
         }
 
         static void CreateWeapon(string name, int range, int damage, int cost, int ammo, int accuracy)
