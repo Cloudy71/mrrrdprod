@@ -6,7 +6,7 @@ public class MapBlockBehaviour : MonoBehaviour {
     private Map _map;
 
     private Camera     _camera;
-    private GameObject _lastHovered = null;
+    public  GameObject SelectedBlock;
 
     // Use this for initialization
     void Start() {
@@ -40,12 +40,12 @@ public class MapBlockBehaviour : MonoBehaviour {
             if (!nearest.tag.Equals("Hexagon") || nearest == null)
                 return;
 
-            if (_lastHovered != null) {
-                _lastHovered.GetComponent<MeshRenderer>().material.SetColor("_OutlineColor", Color.black);
-                _lastHovered.GetComponent<MeshRenderer>().material.SetColor("_Color", Color.white);
+            if (SelectedBlock != null) {
+                SelectedBlock.GetComponent<MeshRenderer>().material.SetColor("_OutlineColor", Color.black);
+                SelectedBlock.GetComponent<MeshRenderer>().material.SetColor("_Color", Color.white);
             }
 
-            _lastHovered = nearest;
+            SelectedBlock = nearest;
             nearest.GetComponent<MeshRenderer>().material.SetColor("_OutlineColor", Color.red);
             nearest.GetComponent<MeshRenderer>().material.SetColor("_Color", new Color(1f, 0.75f, 0.75f));
         }
