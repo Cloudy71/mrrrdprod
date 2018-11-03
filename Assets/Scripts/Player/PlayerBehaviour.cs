@@ -16,10 +16,12 @@ public class PlayerBehaviour : MonoBehaviour {
     void Update() {
         if (!_playerData.IsMoving) {
             transform.position =
-                Manager.MANAGER.GetComponent<Map>().GetBlockOnPosition(_playerData.GridPosition).transform.position +
-                new Vector3(0.5f, 0.75f, 0.5f);
+                Manager.MANAGER.GetComponent<Map>().GetBlockOnPosition(_playerData.GridPosition).transform.position;
         }
 
-        transform.LookAt(_camera.transform.position);
+        transform.GetChild(0).LookAt(_camera.transform.position);
+        transform.GetChild(0).GetComponent<MeshRenderer>().material = Manager
+                                                                      .MANAGER.GetComponent<CharacterUtils>()
+                                                                      .CharacterMaterials[_playerData.Character_ID - 1];
     }
 }

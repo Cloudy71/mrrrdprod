@@ -17,22 +17,23 @@ namespace Hackathon
 
         [SyncVar]
         public string Message;
-        public static int Dmg, Accuracy, ActionPointLoss, BaseHeal, BaseArmor, BaseActPoint, CurrHeal, CurrArmor, CurrActionPoint;
-        private
-            Player Attacker;
-            Character AttackerCharacter;
-            Inventory AttackerInventory;
-            Weapon Weapon;
 
-            Player Defender;
+        public static int Dmg, Accuracy, ActionPointLoss, BaseHeal, BaseArmor, BaseActPoint, CurrHeal, CurrArmor, CurrActionPoint;
+
+        private Player Attacker;
+        private Character AttackerCharacter;
+        private Inventory AttackerInventory;
+        private Weapon Weapon;
+
+        private Player Defender;
 
 
         [Command]
         public void CmdPlayerCombat(int attacker_id, int defender_id)
         {
             this.Attacker = PlayerTable.Select(attacker_id);
-            this.AttackerCharacter = CharacterTable.Select(this.Attacker.CharacterID);        
-            this.AttackerInventory = InventoryTable.Select(this.Attacker.InventoryID);         
+            this.AttackerCharacter = CharacterTable.Select(this.Attacker.CharacterID);
+            this.AttackerInventory = InventoryTable.Select(this.Attacker.InventoryID);
             this.Weapon = WeaponTable.Select(this.AttackerInventory.Weapon_ID);
 
             this.Defender = PlayerTable.Select(defender_id);
@@ -50,13 +51,6 @@ namespace Hackathon
             else
                 this.Message = "influcient action points";
         }
-        /*
-         *  Výpočet dmg
-         *  Odečtení náboje 
-         *  odečtení actionpointů
-         *  
-         *  vrací dmg + out parametr dává najevo, jestli je dost staminy
-         */
 
         public static void DoPlayerCombat(int attacker_id, int defender_id)
         {
@@ -65,6 +59,13 @@ namespace Hackathon
 
         private int CountFireDamage(out bool EnoughStamina)
         {
+            /*
+             *  Výpočet dmg
+             *  Odečtení náboje 
+             *  odečtení actionpointů
+             *  
+             *  vrací dmg + out parametr dává najevo, jestli je dost staminy
+             */
             PlayerCombat.ActionPointLoss = this.Weapon.Cost; // pro vypis
             PlayerCombat.BaseActPoint = this.AttackerCharacter.Stamina; // pro vypis
 
@@ -99,12 +100,12 @@ namespace Hackathon
             return 0;
 
         }
-
-        /*
-         *  Odečtení armoru, nebo hp, když nestačí armor, odečte se zbytek z hp
-         */
+ 
         private void LifeLoss(int Damage)
         {
+            /*
+             *  Odečtení armoru, nebo hp, když nestačí armor, odečte se zbytek z hp
+             */
             PlayerCombat.BaseArmor = this.Defender.Armor;
             PlayerCombat.BaseHeal = this.Defender.Health;
 
@@ -128,6 +129,6 @@ namespace Hackathon
             PlayerCombat.CurrHeal = this.Defender.Health;
         }
 
-    
+
     }
 }

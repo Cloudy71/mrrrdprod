@@ -28,4 +28,17 @@ public class Map : MonoBehaviour {
     public Block.BlockType GetBlockTypeOnPosition(Vector2 position) {
         return GetBlockOnPosition(position).GetComponent<Block>().Type;
     }
+
+    public Vector2 GetGridPositionByBlock(GameObject block) {
+        GameObject obj = null;
+        for (int i = 0; i < Blocks.Count; i++) {
+            if (Blocks[i].Equals(block)) {
+                int x = (int) (i / Size.x);
+                int y = i - (int) (x * Size.x);
+                return new Vector2(x, y);
+            }
+        }
+
+        return Vector2.zero;
+    }
 }

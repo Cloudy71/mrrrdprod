@@ -10,6 +10,7 @@ public class MapGenerator : MonoBehaviour {
     public int        Height;
     public Material   GroundMaterial;
     public Material   WallMaterial;
+    public Material   DirtMaterial;
 
     private Map _map;
 
@@ -37,9 +38,16 @@ public class MapGenerator : MonoBehaviour {
                                           j * MapOffsets[4].y);
                 GameObject gObject = Instantiate(HexagonPrefab, pos, HexagonPrefab.transform.rotation);
                 Block block = gObject.GetComponent<Block>();
+
+                bool IsDirt = Random.Range(0, 5) == 0;
+
                 if (i == 0 || i == Width - 1 || j == 0 || j == Height - 1) {
                     gObject.GetComponent<MeshRenderer>().material = WallMaterial;
                     block.Type = Block.BlockType.Solid;
+                }
+                else if (IsDirt) {
+                    gObject.GetComponent<MeshRenderer>().material = DirtMaterial;
+                    block.Type = Block.BlockType.Moveable;
                 }
                 else {
                     gObject.GetComponent<MeshRenderer>().material = GroundMaterial;
