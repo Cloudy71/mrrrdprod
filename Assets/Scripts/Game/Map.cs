@@ -31,7 +31,6 @@ public class Map : NetworkBehaviour {
 
     public GameObject GetBlockOnPosition(Vector2 position) {
         int idx = (int) (position.x * Size.y + position.y);
-       // Debug.Log(idx);
         return Blocks[idx];
     }
 

@@ -69,8 +69,19 @@ namespace Hackathon
                 Comment.Add("Nepadlo nic");
             }
 
-            var comment = System.String.Join("", Comment.ToArray());
+            try
+            {
+                /*Test_StatReport(1);
+                Test_StatReport(2);*/
+            }
+            catch
+            {
+                Comment.Add("Nepovedlo se načíst z hráče");
+            }
 
+
+
+            var comment = System.String.Join("", Comment.ToArray());
             TestResult = comment;
             try
             {
@@ -133,5 +144,13 @@ namespace Hackathon
             PlayerRefill.RunRefill(id);
             return "získaný item: " + PlayerRefill.ObtainedItem;
         }
+
+        /*static string Test_StatReport(int id)
+        {
+            int HP, Stamina;
+            string Weapon;
+            //PlayerStatReport.DoPlayerStatRep(id, out HP, out Stamina, out Weapon);
+            return "Hrac: " + id + " HP: " + HP + " SP: " + Stamina + " Weapon: " + Weapon;
+        }*/
     }
 }

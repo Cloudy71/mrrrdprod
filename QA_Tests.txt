@@ -12,7 +12,7 @@ Hráč1: prvni
  ====================================
 CombatSystem
 =====================================
-DMG: 0 | Accuracy: 70 | ActionPointLoss: 8 | BaseHealth: 0 | BaseArmor: 0 | BaseActionPoint: 10 | CurrHealth :0 | CurrArmor: 0 | CurrActionPoint: 2 | 
+DMG: 60 | Accuracy: 70 | ActionPointLoss: 8 | BaseHealth: 110 | BaseArmor: 0 | BaseActionPoint: 10 | CurrHealth :110 | CurrArmor: 0 | CurrActionPoint: 2 | 
  ====================================
 LootBox
 =====================================

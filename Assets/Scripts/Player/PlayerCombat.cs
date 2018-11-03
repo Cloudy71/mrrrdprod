@@ -29,14 +29,14 @@ namespace Hackathon
 
 
         [Command]
-        public void CmdPlayerCombat(int attacker_id, int defender_id)
+        public void CmdPlayerCombat(Transform attacker, Transform defender)
         {
-            this.Attacker = PlayerTable.Select(attacker_id);
+            this.Attacker = PlayerTable.Select((int) attacker.GetComponent<PlayerData>().netId.Value);
             this.AttackerCharacter = CharacterTable.Select(this.Attacker.CharacterID);
             this.AttackerInventory = InventoryTable.Select(this.Attacker.InventoryID);
             this.Weapon = WeaponTable.Select(this.AttackerInventory.Weapon_ID);
 
-            this.Defender = PlayerTable.Select(defender_id);
+            this.Defender = PlayerTable.Select((int)defender.GetComponent<PlayerData>().netId.Value);
 
             bool EnoughStamina;
             int Damage = CountFireDamage(out EnoughStamina);
@@ -52,9 +52,9 @@ namespace Hackathon
                 this.Message = "influcient action points";
         }
 
-        public static void DoPlayerCombat(int attacker_id, int defender_id)
+        public void DoPlayerCombat(Transform defender)
         {
-            LocalPlayer.GetComponent<PlayerCombat>().CmdPlayerCombat(attacker_id, defender_id);
+            CmdPlayerCombat(this.transform, defender);
         }
 
         private int CountFireDamage(out bool EnoughStamina)

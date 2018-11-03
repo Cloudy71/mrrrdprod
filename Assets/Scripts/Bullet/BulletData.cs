@@ -5,19 +5,20 @@ using UnityEngine.Networking;
 
 namespace Hackathon
 {
-    public class BulletData : NetworkBehaviour {
+    public class BulletData : NetworkBehaviour
+    {
 
         [SyncVar]
         public bool isMoving;
 
         [SyncVar]
-        public int Speed = 1;
+        public float Speed = 10f;
 
         [SyncVar]
-        public int AttackerId;
+        public Transform Attacker;
 
         [SyncVar]
-        public int DefenderId;
+        public Transform Defender;
 
         [SyncVar]
         public Vector2 GridPosition;
@@ -33,26 +34,30 @@ namespace Hackathon
         }
 
         // Update is called once per frame
-        void Update() {
-            Debug.Log("update");
+        void Update()
+        {
+            //Debug.Log("update");
             float step = Speed * Time.deltaTime;
-            if (isMoving)
+            Debug.Log("ismoving");
+            Debug.Log("ismoving");
+            Debug.Log("ismoving");
+            Debug.Log("ismoving");
+            Debug.Log("ismoving");
+            Debug.Log("ismoving");
+            Debug.Log("ismoving");
+            Debug.Log("ismoving");
+            Debug.Log("ismoving");
+            Debug.Log("ismoving");
+            Debug.Log("ismoving");
+            Debug.Log("ismoving");
+            Debug.Log("ismoving");
+            Debug.Log("ismoving");
+            //Debug.Log("moving");
+            transform.position = Vector3.MoveTowards(transform.position, Defender.position, step);
+            if (Vector3.Distance(transform.position, Defender.position) < 0.1f)
             {
-                Debug.Log("ismoving");
-                GameObject moveBlock = Manager.MANAGER.GetComponent<Map>().GetBlockOnPosition(MovePosition);
-
-                if (GridPosition != MovePosition)
-                {
-                    //Debug.Log("moving");
-                    transform.position = Vector3.MoveTowards(transform.position, moveBlock.transform.position, step);
-                    if (Vector3.Distance(transform.position, moveBlock.transform.position) < 0.1f)
-                    {
-                        transform.position = moveBlock.transform.position;
-                        GridPosition = MovePosition;
-                        PlayerCombat.DoPlayerCombat(AttackerId, DefenderId);
-                        isMoving = false;
-                    }
-                }
+                Attacker.GetComponent<PlayerCombat>().DoPlayerCombat(Defender);
+                NetworkServer.Destroy(gameObject);
             }
         }
     }

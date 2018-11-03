@@ -7,7 +7,6 @@ namespace Hackathon {
     public class PlayerBehaviour : NetworkBehaviour {
         private PlayerData _playerData;
         private Camera     _camera;
-        public BulletData Bullet;
 
         // Use this for initialization
         void Start() {
@@ -31,19 +30,19 @@ namespace Hackathon {
             }
         }
         [Command]
-        public void CmdFire(int attackerID, int defenderID, Vector2 Gridposition, Vector2 Moveposition)
+        public void CmdFire(GameObject attacker, GameObject defender, Vector2 Gridposition, Vector2 Moveposition)
         {
-            Bullet = Instantiate(Bullet);
-            Bullet.AttackerId = attackerID;
-            Bullet.DefenderId = defenderID;
-            Bullet.GridPosition = Gridposition;
-            Bullet.MovePosition = Moveposition;
+            GameObject GBullet = Instantiate(Map.MAP.GetComponent<OtherPrefabs>().BulletPrefab, transform.position, Quaternion.identity);
+            BulletData bulletData = GBullet.GetComponent<BulletData>();
+            bulletData = GBullet.GetComponent<BulletData>();
+            bulletData.Attacker = attacker.transform;
+            bulletData.Defender = defender.transform;
+            bulletData.GridPosition = Gridposition;
+            bulletData.MovePosition = Moveposition;
+            bulletData.isMoving = true;
 
-        }
+            NetworkServer.Spawn(GBullet);
 
-        public static void RunCmdFire(int attackerID, int defenderID, Vector2 Gridposition, Vector2 Moveposition)
-        {
-            PlayerSelection.LocalPlayer.GetComponent<PlayerBehaviour>().CmdFire(attackerID, defenderID, Gridposition, Moveposition);
         }
     }
 }

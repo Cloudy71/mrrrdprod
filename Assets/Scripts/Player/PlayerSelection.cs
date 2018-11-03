@@ -23,8 +23,8 @@ namespace Hackathon
                 LocalPlayer = this.gameObject;
 
                 string comm;
-                Hackathon.QA_class.Create(out comm);
-                Debug.Log(comm);
+                /*Hackathon.QA_class.Create(out comm);
+                Debug.Log(comm);*/
             }
         }
 
@@ -45,7 +45,7 @@ namespace Hackathon
             Character c = CharacterTable.Select(ID);
             Inventory i = new Inventory();
             Weapon w = WeaponTable.Select(c.Weapon);
-            player.ID = PlayerTable.Select_Count() + 1;
+            player.ID = (int) netId.Value;
             player.Name = name;
             player.Health = Constants.player_basehealth + c.BHealth;
             player.Score = 0;

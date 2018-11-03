@@ -12,7 +12,6 @@ namespace Hackathon
         // Use this for initialization
         void Start()
         {
-            Instantiate(BulletPrefab);
         }
 
         // Update is called once per frame

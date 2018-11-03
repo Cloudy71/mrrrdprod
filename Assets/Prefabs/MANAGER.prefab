@@ -105,10 +105,6 @@ MonoBehaviour:
     type: 2}
   Width: 64
   Height: 64
-  GroundMaterial: {fileID: 2100000, guid: fb3b55c8e04ad134d9fea319ca3fd07b, type: 2}
-  WallMaterial: {fileID: 2100000, guid: 686d1533dfd37624da8c171f3d5753c2, type: 2}
-  DirtMaterial: {fileID: 2100000, guid: 077fb81949e50834482fe90a53c80df2, type: 2}
-  WaterMaterial: {fileID: 2100000, guid: fa7fa7d1cc1ab7e488a76e7c7213bfe2, type: 2}
 --- !u!114 &114699935593033952
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -204,3 +200,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Blocks: []
   Size: {x: 16, y: 16}
+  Generated: 0
