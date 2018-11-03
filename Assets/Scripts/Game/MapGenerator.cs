@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Runtime.ConstrainedExecution;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.Networking;
 
-public class MapGenerator : MonoBehaviour {
+public class MapGenerator : NetworkBehaviour {
     public GameObject HexagonPrefab;
     public int        Width;
     public int        Height;
@@ -27,7 +28,10 @@ public class MapGenerator : MonoBehaviour {
 
     // Use this for initialization
     void Start() {
-        _map = GetComponent<Map>();
+        if (!isServer)
+            return;
+
+        _map = Manager.MANAGER.GetComponent<Map>();
         _map.Size = new Vector2(Width, Height);
         _map.Blocks = new List<GameObject>();
 
@@ -83,6 +87,8 @@ public class MapGenerator : MonoBehaviour {
 
                 left = !left;
                 _map.Blocks.Add(gObject);
+
+                NetworkServer.Spawn(gObject);
             }
         }
     }
