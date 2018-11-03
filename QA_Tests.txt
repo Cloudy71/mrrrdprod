@@ -8,12 +8,111 @@ Charactery do DBS
 2 hráči
 =====================================
 Hráč1: prvni
- Zbraň:  Hráč2: druhy 
+ Zbraň: LMG Hráč2: druhy 
  ====================================
 CombatSystem
 =====================================
-DMG: 0 | Accuracy: 0 | ActionPointLoss: 0 | BaseHealth: 0 | BaseArmor: 0 | BaseActionPoint: 0 | CurrHealth :0 | CurrArmor: 0 | CurrActionPoint: 0 | 
+DMG: 66 | Accuracy: 70 | ActionPointLoss: 8 | BaseHealth: 110 | BaseArmor: 0 | BaseActionPoint: 10 | CurrHealth :110 | CurrArmor: 0 | CurrActionPoint: 2 | 
  ====================================
 LootBox
 =====================================
-Nepadlo nic
+získaný item: Ammo
+získaný item: Ammo
+získaný item: Ammo
+získaný item: Ammo
+získaný item: Ammo
+získaný item: Health
+získaný item: Health
+získaný item: Maceta
+získaný item: Health
+získaný item: Brokovnice
+získaný item: Health
+získaný item: Health
+získaný item: AK-74U
+získaný item: Health
+získaný item: Ammo
+získaný item: Granát
+získaný item: Health
+získaný item: Ammo
+získaný item: Health
+získaný item: Health
+získaný item: Health
+získaný item: Health
+získaný item: CZ vz. 75
+získaný item: Health
+získaný item: Ammo
+získaný item: Health
+získaný item: Health
+získaný item: Health
+získaný item: Sniperka
+získaný item: Health
+získaný item: Ammo
+získaný item: Nuž
+získaný item: Armor
+získaný item: Health
+získaný item: Armor
+získaný item: Armor
+získaný item: Health
+získaný item: Ammo
+získaný item: Health
+získaný item: Armor
+získaný item: Armor
+získaný item: Armor
+získaný item: Health
+získaný item: Ammo
+získaný item: Health
+získaný item: Ammo
+získaný item: Armor
+získaný item: Armor
+získaný item: Armor
+získaný item: Ammo
+získaný item: Ammo
+získaný item: Health
+získaný item: Armor
+získaný item: Health
+získaný item: Health
+získaný item: Ammo
+získaný item: Health
+získaný item: Armor
+získaný item: Health
+získaný item: Armor
+získaný item: Ammo
+získaný item: Armor
+získaný item: Health
+získaný item: Armor
+získaný item: Armor
+získaný item: Health
+získaný item: Armor
+získaný item: Health
+získaný item: Ammo
+získaný item: Armor
+získaný item: Health
+získaný item: Ammo
+získaný item: Armor
+získaný item: Health
+získaný item: Ammo
+získaný item: Health
+získaný item: Ammo
+získaný item: Armor
+získaný item: Health
+získaný item: Health
+získaný item: Health
+získaný item: Armor
+získaný item: Health
+získaný item: Health
+získaný item: Armor
+získaný item: Ammo
+získaný item: Armor
+získaný item: Armor
+získaný item: Ammo
+získaný item: Health
+získaný item: Ammo
+získaný item: Armor
+získaný item: Ammo
+získaný item: Armor
+získaný item: Health
+získaný item: Health
+získaný item: Ammo
+získaný item: Armor
+získaný item: Armor
+získaný item: Ammo

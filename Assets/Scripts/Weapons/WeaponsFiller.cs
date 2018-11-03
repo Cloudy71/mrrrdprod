@@ -15,6 +15,7 @@ namespace Hackathon
             CreateWeapon("Brokovnice",  1,      120,    5,      4,      90);
             CreateWeapon("AK-74U",      4,      90,     4,      7,      75);
             CreateWeapon("Granát",      2,      60,     1,      1,     100);
+            CreateWeapon("Nůž",         0,      300,    5,      1000,   40);
         }
 
         static void CreateWeapon(string name, int range, int damage, int cost, int ammo, int accuracy)
