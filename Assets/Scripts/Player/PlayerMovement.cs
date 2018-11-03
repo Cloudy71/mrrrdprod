@@ -22,9 +22,10 @@ namespace Hackathon {
                 return;
             }
 
-            if (_playerData.Character_ID != 0 && _playerData.PlayerInstance == null) {
+            if (_playerData.Character_ID != 0 && _playerData.CharacterInstance == null) {
                 _playerData.PlayerInstance = PlayerTable.Select(_playerData.playerControllerId);
                 _playerData.CharacterInstance = CharacterTable.Select(_playerData.Character_ID);
+                Debug.Log("aaa");
             }
 
             if (Input.GetMouseButtonDown(0) && !_playerData.IsMoving) {
@@ -63,13 +64,11 @@ namespace Hackathon {
         public void CmdMovement(int id) {
             if (_playerData.IsMoving) {
                 Debug.Log("ismoving");
-                Player player = PlayerTable.Select(id);
-                Character c = CharacterTable.Select(player.ID);
                 GameObject moveBlock = Manager.MANAGER.GetComponent<Map>().GetBlockOnPosition(_playerData.MovePosition);
                 int distance = int.Parse(Vector3.Distance(_playerData.transform.position, moveBlock.transform.position)
                                                 .ToString());
 
-                if (distance > c.Stamina) {
+                if (distance > _playerData.CharacterInstance.Stamina) {
                     this.message = "Too long";
                     Debug.Log("too long");
                 }
