@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Hackathon
 {
-    class Character
+    public class Character
     {
         public int ID { get; set; }
         public string Name { get; set; }

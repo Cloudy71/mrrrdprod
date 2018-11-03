@@ -11,6 +11,7 @@ public class MapGenerator : MonoBehaviour {
     public Material   GroundMaterial;
     public Material   WallMaterial;
     public Material   DirtMaterial;
+    public Material   WaterMaterial;
 
     private Map _map;
 
@@ -30,6 +31,24 @@ public class MapGenerator : MonoBehaviour {
         _map.Size = new Vector2(Width, Height);
         _map.Blocks = new List<GameObject>();
 
+        int lakes = (Width + Height) / 32;
+
+        List<Vector2> lakeBlocks = new List<Vector2>();
+
+        for (int i = 0; i < lakes; i++) {
+            int lakeWidth = Random.Range(3, 8);
+            int lakeHeight = Random.Range(3, 8);
+            int additionSide = Random.Range(0, 4);
+            int x = Random.Range(0, Width - lakeWidth);
+            int y = Random.Range(0, Height - lakeHeight);
+
+            for (int j = 0; j < lakeHeight; j++) {
+                for (int k = 0; k < lakeWidth; k++) {
+                    lakeBlocks.Add(new Vector2(x + k, y + j));
+                }
+            }
+        }
+
         for (int i = 0; i < Width; i++) {
             bool left = false;
             for (int j = 0; j < Height; j++) {
@@ -40,10 +59,18 @@ public class MapGenerator : MonoBehaviour {
                 Block block = gObject.GetComponent<Block>();
 
                 bool IsDirt = Random.Range(0, 5) == 0;
+                bool IsWater = lakeBlocks.Contains(new Vector2(i, j));
 
                 if (i == 0 || i == Width - 1 || j == 0 || j == Height - 1) {
                     gObject.GetComponent<MeshRenderer>().material = WallMaterial;
                     block.Type = Block.BlockType.Solid;
+                }
+                else if (IsWater) {
+                    /*gObject.GetComponent<MeshRenderer>().material = WaterMaterial;
+                    block.Type = Block.BlockType.Solid;*/
+                    Destroy(gObject);
+                    left = !left;
+                    continue;
                 }
                 else if (IsDirt) {
                     gObject.GetComponent<MeshRenderer>().material = DirtMaterial;

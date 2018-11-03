@@ -14,7 +14,7 @@ public class CameraMovement : MonoBehaviour {
 
     // Use this for initialization
     void Start() {
-        _map = GetComponent<Map>();
+        _map = Manager.MANAGER.GetComponent<Map>();
         _camera = Camera.main;
         Position = new Vector3(0f, 0f, 0f);
     }
@@ -40,6 +40,22 @@ public class CameraMovement : MonoBehaviour {
         Zoom -= Input.mouseScrollDelta.y * 0.25f;
         if (Zoom < 1f)
             Zoom = 1f;
+
+        if (Position.x < 0f) {
+            Position.x = 0f;
+        }
+
+        if (Position.z < -_map.Size.y) {
+            Position.z = -_map.Size.y;
+        }
+
+        if (Position.x > _map.Size.x) {
+            Position.x = _map.Size.x;
+        }
+
+        if (Position.z > 0) {
+            Position.z = 0;
+        }
 
         _camera.transform.position = Position + new Vector3(-Zoom, Zoom + 2f, Zoom);
         _camera.transform.LookAt(Position);

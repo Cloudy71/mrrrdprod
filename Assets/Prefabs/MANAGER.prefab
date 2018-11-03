@@ -23,6 +23,8 @@ GameObject:
   - component: {fileID: 114698422015792772}
   - component: {fileID: 114889098484736964}
   - component: {fileID: 114645873633240830}
+  - component: {fileID: 114274684848341638}
+  - component: {fileID: 114112257858617908}
   m_Layer: 0
   m_Name: MANAGER
   m_TagString: Untagged
@@ -43,6 +45,39 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114112257858617908
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1535314968474834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 227461547, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  manager: {fileID: 0}
+  showGUI: 1
+  offsetX: 0
+  offsetY: 0
+--- !u!114 &114274684848341638
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1535314968474834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 283cb3c3dd9ee85499a46ab75aaadad7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CharacterMaterials:
+  - {fileID: 2100000, guid: f772b0891f5826d4e86e4171b6386748, type: 2}
+  - {fileID: 2100000, guid: 2199821075ab30346a8588290acc1430, type: 2}
+  - {fileID: 2100000, guid: 938c7272452136943bad22ce78f7a397, type: 2}
+  - {fileID: 2100000, guid: e4c846525f5eb1845933fe974f8ed891, type: 2}
+  - {fileID: 2100000, guid: 71f71cdf4e1dd504bb92f174f57fa229, type: 2}
+  - {fileID: 2100000, guid: fb0d2d99e5d28604eb952f77d0ddb2fe, type: 2}
 --- !u!114 &114645873633240830
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -54,6 +89,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b29d1c4e9733f142b260b5ab3a101d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SelectedBlock: {fileID: 0}
 --- !u!114 &114698422015792772
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -67,10 +103,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HexagonPrefab: {fileID: 1288450262120090, guid: 9aaa8352b57331943982896a5cfb6855,
     type: 2}
-  Width: 16
-  Height: 16
+  Width: 64
+  Height: 64
   GroundMaterial: {fileID: 2100000, guid: fb3b55c8e04ad134d9fea319ca3fd07b, type: 2}
   WallMaterial: {fileID: 2100000, guid: 686d1533dfd37624da8c171f3d5753c2, type: 2}
+  DirtMaterial: {fileID: 2100000, guid: 077fb81949e50834482fe90a53c80df2, type: 2}
+  WaterMaterial: {fileID: 2100000, guid: fa7fa7d1cc1ab7e488a76e7c7213bfe2, type: 2}
 --- !u!114 &114699935593033952
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -91,7 +129,8 @@ MonoBehaviour:
   m_ScriptCRCCheck: 1
   m_MaxDelay: 0.01
   m_LogLevel: 2
-  m_PlayerPrefab: {fileID: 0}
+  m_PlayerPrefab: {fileID: 1319495732548326, guid: 6cfc30db195aa604888dd1943dbfbda8,
+    type: 2}
   m_AutoCreatePlayer: 1
   m_PlayerSpawnMethod: 0
   m_OfflineScene: 
