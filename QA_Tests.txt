@@ -8,11 +8,11 @@ Charactery do DBS
 2 hráči
 =====================================
 Hráč1: prvni
- Zbraň:  Hráč2: druhy 
+ Zbraň: LMG Hráč2: druhy 
  ====================================
 CombatSystem
 =====================================
-DMG: 0 | Accuracy: 0 | ActionPointLoss: 0 | BaseHealth: 0 | BaseArmor: 0 | BaseActionPoint: 0 | CurrHealth :0 | CurrArmor: 0 | CurrActionPoint: 0 | 
+DMG: 0 | Accuracy: 70 | ActionPointLoss: 8 | BaseHealth: 0 | BaseArmor: 0 | BaseActionPoint: 10 | CurrHealth :0 | CurrArmor: 0 | CurrActionPoint: 2 | 
  ====================================
 LootBox
 =====================================

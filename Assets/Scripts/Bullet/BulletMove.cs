@@ -8,26 +8,34 @@ namespace Hackathon
     public class BulletMove : MonoBehaviour
     {
 
-        private PlayerData _playerData;
-        private GameObject[] players;
+        private BulletData BulletData;
 
         void Start()
         {
-
-            players = GameObject.FindGameObjectsWithTag("Player");
+            BulletData = GetComponent<BulletData>();
         }
 
         void Update()
         {
-            if (Input.GetMouseButtonDown(0) && !_playerData.IsMoving)
+            float step = BulletData.Speed * Time.deltaTime;
+            if (BulletData.isMoving)
             {
-                _playerData.MovePosition = Manager.MANAGER.GetComponent<Map>()
-                                                  .GetGridPositionByBlock(Manager
-                                                                          .MANAGER.GetComponent<MapBlockBehaviour>()
-                                                                          .SelectedBlock);
-                _playerData.IsMoving = true;
-            }
+                GameObject moveBlock = Manager.MANAGER.GetComponent<Map>().GetBlockOnPosition(BulletData.MovePosition);
 
+                if (BulletData.GridPosition != BulletData.MovePosition)
+                {
+                    //Debug.Log("moving");
+                    transform.position = Vector3.MoveTowards(transform.position, moveBlock.transform.position, step);
+                    if (Vector3.Distance(transform.position, moveBlock.transform.position) < 0.1f)
+                    {
+                        transform.position = moveBlock.transform.position;
+                        BulletData.GridPosition = BulletData.MovePosition;
+                        PlayerCombat.DoPlayerCombat(BulletData.AttackerId, BulletData.DefenderId);
+                        BulletData.isMoving = false;
+                        Destroy(this);
+                    }
+                }
+            }
         }
     }
 }

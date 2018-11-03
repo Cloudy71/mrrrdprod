@@ -42,6 +42,7 @@ namespace Hackathon {
 
         // Use this for initialization
         void Start() {
+            Debug.Log("Bullet");
         }
 
         // Update is called once per frame
