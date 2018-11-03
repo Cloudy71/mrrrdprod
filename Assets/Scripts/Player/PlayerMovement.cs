@@ -7,12 +7,12 @@ namespace Hackathon {
     public class PlayerMovement : NetworkBehaviour {
         [SyncVar]
         string message;
-
         private PlayerData _playerData;
-
+        public float speed;
 
         // Use this for initialization
         void Start() {
+            
             _playerData = GetComponent<PlayerData>();
         }
 
@@ -30,36 +30,36 @@ namespace Hackathon {
                                                                           .SelectedBlock);
                 _playerData.IsMoving = true;
             }
-
-            //Debug.Log("localplayer");
-            if (_playerData.IsMoving) {
-                Debug.Log("ismoving");
+            float step = speed * Time.deltaTime;
+            if (_playerData.IsMoving)
+            {
                 Player player = PlayerTable.Select(_playerData.playerControllerId);
                 Character c = CharacterTable.Select(_playerData.Character_ID);
                 GameObject moveBlock = Manager.MANAGER.GetComponent<Map>().GetBlockOnPosition(_playerData.MovePosition);
                 float distance = Vector3.Distance(_playerData.transform.position, moveBlock.transform.position);
-                float Speed = Vector3.Distance(_playerData.transform.position, moveBlock.transform.position) / 60f;
-                if (distance > c.Stamina * 10) {
+
+
+                if (distance > c.Stamina * 10)
+                {
                     this.message = "Too long";
-                    Debug.Log("too long");
                 }
-                else {
-                    Debug.Log("ok");
-                    float step = Speed * Time.deltaTime;
-                    while (_playerData.GridPosition != _playerData.MovePosition) {
+                else
+                {
+                    if (_playerData.GridPosition != _playerData.MovePosition)
+                    {
                         Debug.Log("moving");
-                        _playerData.GridPosition =
-                            Vector3.MoveTowards(_playerData.GridPosition, _playerData.MovePosition, step);
+                        transform.position = Vector3.MoveTowards(transform.position, moveBlock.transform.position, step);
+                        if (Vector3.Distance(transform.position, moveBlock.transform.position) < 0.1f)
+                        {
+                            transform.position = moveBlock.transform.position;
+                            _playerData.GridPosition = _playerData.MovePosition;
+                            _playerData.IsMoving = false;
+                        }
                     }
-
-                    _playerData.IsMoving = false;
+                    
                 }
-            }
-            else {
-                Debug.Log("else");
-            }
+            }   
         }
-
         [Command]
         public void CmdMovement(int id) {
             if (_playerData.IsMoving) {
