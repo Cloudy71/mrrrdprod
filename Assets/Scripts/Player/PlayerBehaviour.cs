@@ -7,13 +7,12 @@ namespace Hackathon {
     public class PlayerBehaviour : NetworkBehaviour {
         private PlayerData _playerData;
         private Camera     _camera;
-        public GameObject BulletPrefab;
+        public BulletData Bullet;
 
         // Use this for initialization
         void Start() {
             _playerData = GetComponent<PlayerData>();
             _camera = Camera.main;
-            BulletPrefab = Instantiate(BulletPrefab);
         }
 
         // Update is called once per frame
@@ -34,7 +33,12 @@ namespace Hackathon {
         [Command]
         public void CmdFire(int attackerID, int defenderID, Vector2 Gridposition, Vector2 Moveposition)
         {
-            Instantiate(Map.MAP.GetComponent<OtherPrefabs>().BulletPrefab, transform);
+            Bullet = Instantiate(Bullet);
+            Bullet.AttackerId = attackerID;
+            Bullet.DefenderId = defenderID;
+            Bullet.GridPosition = Gridposition;
+            Bullet.MovePosition = Moveposition;
+
         }
 
         public static void RunCmdFire(int attackerID, int defenderID, Vector2 Gridposition, Vector2 Moveposition)
